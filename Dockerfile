@@ -9,7 +9,7 @@ RUN apk add --no-cache python3 make g++
 # Copy package files
 COPY package.json package-lock.json* ./
 
-# Install dependencies
+# Install dependencies (including devDependencies for tsx)
 RUN npm ci
 
 # Copy source
@@ -26,11 +26,17 @@ WORKDIR /app
 # Install runtime dependencies for better-sqlite3
 RUN apk add --no-cache python3 make g++
 
-# Copy built app
+# Copy everything needed to run seeds and the app
 COPY --from=builder /app/build ./build
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/package.json ./
 COPY --from=builder /app/scripts ./scripts
+COPY --from=builder /app/src ./src
+COPY --from=builder /app/tsconfig.json ./
+COPY --from=builder /app/docker-entrypoint.sh ./
+
+# Make entrypoint executable
+RUN chmod +x /app/docker-entrypoint.sh
 
 # Create data directory
 RUN mkdir -p /app/data
@@ -43,5 +49,5 @@ ENV HOST=0.0.0.0
 
 EXPOSE 3000
 
-# Run the app
-CMD ["node", "build"]
+# Use entrypoint script
+ENTRYPOINT ["/app/docker-entrypoint.sh"]
