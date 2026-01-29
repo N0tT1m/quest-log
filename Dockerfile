@@ -33,10 +33,6 @@ COPY --from=builder /app/package.json ./
 COPY --from=builder /app/scripts ./scripts
 COPY --from=builder /app/src ./src
 COPY --from=builder /app/tsconfig.json ./
-COPY --from=builder /app/docker-entrypoint.sh ./
-
-# Make entrypoint executable
-RUN chmod +x /app/docker-entrypoint.sh
 
 # Create data directory
 RUN mkdir -p /app/data
@@ -49,5 +45,5 @@ ENV HOST=0.0.0.0
 
 EXPOSE 3000
 
-# Use entrypoint script
-ENTRYPOINT ["/app/docker-entrypoint.sh"]
+# Run seeds and start app
+CMD sh -c "npx tsx scripts/seed-projects.ts && npx tsx scripts/seed-ai-paths.ts && node build"
