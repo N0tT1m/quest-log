@@ -46,4 +46,4 @@ ENV HOST=0.0.0.0
 EXPOSE 3000
 
 # Run seeds and start app
-CMD sh -c "npx tsx scripts/seed-projects.ts && npx tsx scripts/seed-ai-paths.ts && node build"
+CMD sh -c "npx tsx scripts/seed-projects.ts && npx tsx scripts/seed-ai-paths.ts && npx tsx scripts/seed-network-redteam.ts && npx tsx scripts/seed-redteam-learning.ts && npx tsx scripts/seed-hacking-expanded.ts && npx tsx scripts/seed-learn-dl-nocourses.ts && npx tsx scripts/seed-deep-learning-part2.ts && npx tsx scripts/seed-transformers-expanded.ts && npx tsx scripts/seed-ml-pipeline-expanded.ts && node build"
