@@ -25,6 +25,12 @@ db.exec(`
 		description TEXT,
 		icon TEXT DEFAULT 'book',
 		color TEXT DEFAULT 'emerald',
+		language TEXT,
+		skills TEXT,
+		start_hint TEXT,
+		difficulty TEXT DEFAULT 'intermediate',
+		estimated_weeks INTEGER,
+		schedule TEXT,
 		created_at INTEGER
 	);
 
@@ -43,6 +49,7 @@ db.exec(`
 		module_id INTEGER NOT NULL REFERENCES modules(id) ON DELETE CASCADE,
 		title TEXT NOT NULL,
 		description TEXT,
+		details TEXT,
 		order_index INTEGER NOT NULL DEFAULT 0,
 		completed INTEGER NOT NULL DEFAULT 0,
 		completed_at INTEGER,

@@ -17,7 +17,8 @@
 		orange: 'from-orange-500/20 to-orange-500/5 border-orange-500/30 hover:border-orange-500/50',
 		pink: 'from-pink-500/20 to-pink-500/5 border-pink-500/30 hover:border-pink-500/50',
 		teal: 'from-teal-500/20 to-teal-500/5 border-teal-500/30 hover:border-teal-500/50',
-		yellow: 'from-yellow-500/20 to-yellow-500/5 border-yellow-500/30 hover:border-yellow-500/50'
+		yellow: 'from-yellow-500/20 to-yellow-500/5 border-yellow-500/30 hover:border-yellow-500/50',
+		gray: 'from-gray-500/20 to-gray-500/5 border-gray-500/30 hover:border-gray-500/50'
 	};
 
 	const iconColors: Record<string, string> = {
@@ -33,7 +34,8 @@
 		orange: 'text-orange-500',
 		pink: 'text-pink-500',
 		teal: 'text-teal-500',
-		yellow: 'text-yellow-500'
+		yellow: 'text-yellow-500',
+		gray: 'text-gray-500'
 	};
 
 	const languageColors: Record<string, string> = {
@@ -67,7 +69,8 @@
 		orange: 'bg-orange-500',
 		pink: 'bg-pink-500',
 		teal: 'bg-teal-500',
-		yellow: 'bg-yellow-500'
+		yellow: 'bg-yellow-500',
+		gray: 'bg-gray-500'
 	};
 </script>
 
