@@ -53,6 +53,22 @@
 		intermediate: 'text-yellow-400',
 		advanced: 'text-red-400'
 	};
+
+	const progressColors: Record<string, string> = {
+		emerald: 'bg-emerald-500',
+		blue: 'bg-blue-500',
+		purple: 'bg-purple-500',
+		amber: 'bg-amber-500',
+		rose: 'bg-rose-500',
+		red: 'bg-red-500',
+		cyan: 'bg-cyan-500',
+		green: 'bg-green-500',
+		indigo: 'bg-indigo-500',
+		orange: 'bg-orange-500',
+		pink: 'bg-pink-500',
+		teal: 'bg-teal-500',
+		yellow: 'bg-yellow-500'
+	};
 </script>
 
 <div class="p-8">
@@ -148,21 +164,6 @@
 							<span class="font-semibold {iconColors[path.color || 'emerald']}">{path.progress}%</span>
 						</div>
 						<div class="h-2.5 bg-background/50 rounded-full overflow-hidden">
-							{@const progressColors: Record<string, string> = {
-								emerald: 'bg-emerald-500',
-								blue: 'bg-blue-500',
-								purple: 'bg-purple-500',
-								amber: 'bg-amber-500',
-								rose: 'bg-rose-500',
-								red: 'bg-red-500',
-								cyan: 'bg-cyan-500',
-								green: 'bg-green-500',
-								indigo: 'bg-indigo-500',
-								orange: 'bg-orange-500',
-								pink: 'bg-pink-500',
-								teal: 'bg-teal-500',
-								yellow: 'bg-yellow-500'
-							}}
 							<div
 								class="h-full rounded-full transition-all duration-500 {progressColors[path.color || 'emerald'] || 'bg-emerald-500'}"
 								style="width: {path.progress}%"
