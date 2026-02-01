@@ -9,7 +9,15 @@
 		blue: 'from-blue-500/20 to-blue-500/5 border-blue-500/30 hover:border-blue-500/50',
 		purple: 'from-purple-500/20 to-purple-500/5 border-purple-500/30 hover:border-purple-500/50',
 		amber: 'from-amber-500/20 to-amber-500/5 border-amber-500/30 hover:border-amber-500/50',
-		rose: 'from-rose-500/20 to-rose-500/5 border-rose-500/30 hover:border-rose-500/50'
+		rose: 'from-rose-500/20 to-rose-500/5 border-rose-500/30 hover:border-rose-500/50',
+		red: 'from-red-500/20 to-red-500/5 border-red-500/30 hover:border-red-500/50',
+		cyan: 'from-cyan-500/20 to-cyan-500/5 border-cyan-500/30 hover:border-cyan-500/50',
+		green: 'from-green-500/20 to-green-500/5 border-green-500/30 hover:border-green-500/50',
+		indigo: 'from-indigo-500/20 to-indigo-500/5 border-indigo-500/30 hover:border-indigo-500/50',
+		orange: 'from-orange-500/20 to-orange-500/5 border-orange-500/30 hover:border-orange-500/50',
+		pink: 'from-pink-500/20 to-pink-500/5 border-pink-500/30 hover:border-pink-500/50',
+		teal: 'from-teal-500/20 to-teal-500/5 border-teal-500/30 hover:border-teal-500/50',
+		yellow: 'from-yellow-500/20 to-yellow-500/5 border-yellow-500/30 hover:border-yellow-500/50'
 	};
 
 	const iconColors: Record<string, string> = {
@@ -17,13 +25,27 @@
 		blue: 'text-blue-500',
 		purple: 'text-purple-500',
 		amber: 'text-amber-500',
-		rose: 'text-rose-500'
+		rose: 'text-rose-500',
+		red: 'text-red-500',
+		cyan: 'text-cyan-500',
+		green: 'text-green-500',
+		indigo: 'text-indigo-500',
+		orange: 'text-orange-500',
+		pink: 'text-pink-500',
+		teal: 'text-teal-500',
+		yellow: 'text-yellow-500'
 	};
 
 	const languageColors: Record<string, string> = {
 		Python: 'bg-blue-500/20 text-blue-400',
 		Go: 'bg-cyan-500/20 text-cyan-400',
-		Rust: 'bg-orange-500/20 text-orange-400'
+		Rust: 'bg-orange-500/20 text-orange-400',
+		'C': 'bg-gray-500/20 text-gray-400',
+		'C++': 'bg-pink-500/20 text-pink-400',
+		'C#': 'bg-purple-500/20 text-purple-400',
+		'C+Python+C#+Rust': 'bg-red-500/20 text-red-400',
+		'Go+Rust+Python': 'bg-rose-500/20 text-rose-400',
+		'Multi-Language': 'bg-rose-500/20 text-rose-400'
 	};
 
 	const difficultyColors: Record<string, string> = {
@@ -126,12 +148,23 @@
 							<span class="font-semibold {iconColors[path.color || 'emerald']}">{path.progress}%</span>
 						</div>
 						<div class="h-2.5 bg-background/50 rounded-full overflow-hidden">
+							{@const progressColors: Record<string, string> = {
+								emerald: 'bg-emerald-500',
+								blue: 'bg-blue-500',
+								purple: 'bg-purple-500',
+								amber: 'bg-amber-500',
+								rose: 'bg-rose-500',
+								red: 'bg-red-500',
+								cyan: 'bg-cyan-500',
+								green: 'bg-green-500',
+								indigo: 'bg-indigo-500',
+								orange: 'bg-orange-500',
+								pink: 'bg-pink-500',
+								teal: 'bg-teal-500',
+								yellow: 'bg-yellow-500'
+							}}
 							<div
-								class="h-full rounded-full transition-all duration-500
-									{path.color === 'blue' ? 'bg-blue-500' :
-									 path.color === 'purple' ? 'bg-purple-500' :
-									 path.color === 'amber' ? 'bg-amber-500' :
-									 path.color === 'rose' ? 'bg-rose-500' : 'bg-emerald-500'}"
+								class="h-full rounded-full transition-all duration-500 {progressColors[path.color || 'emerald'] || 'bg-emerald-500'}"
 								style="width: {path.progress}%"
 							></div>
 						</div>
