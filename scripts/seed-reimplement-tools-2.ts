@@ -27,7 +27,7 @@ const path1 = insertPath.run(
 // Module 1: Web Tools
 const mod1 = insertModule.run(path1.lastInsertRowid, 'Build Web Attack Tools', 'Reimplement gobuster, sqlmap, and web proxies', 0, now);
 
-insertTask.run(mod1.lastInsertRowid, 'Build gobuster-style Directory Scanner', 'Fast web directory brute-forcer in Go', `## Gobuster Clone - Directory Scanner
+insertTask.run(mod1.lastInsertRowid, 'Build gobuster-style Directory Scanner', 'Build a concurrent web directory brute-forcer in Go with wordlist support, wildcard detection, status code filtering, custom headers, and extension fuzzing for discovering hidden paths and files', `## Gobuster Clone - Directory Scanner
 
 ### How Gobuster Works
 \`\`\`
@@ -280,7 +280,7 @@ go build -o gobuster_clone gobuster_clone.go
 ./gobuster_clone -u http://target.com -w wordlist.txt -b 404,403
 \`\`\``, 0, now);
 
-insertTask.run(mod1.lastInsertRowid, 'Build sqlmap-style SQL Injection Tool', 'Automated SQL injection detection and exploitation', `## SQLMap Clone - SQL Injection Tool
+insertTask.run(mod1.lastInsertRowid, 'Build sqlmap-style SQL Injection Tool', 'Implement automated SQL injection testing with support for boolean-blind, time-blind, error-based, and UNION techniques, database fingerprinting, data extraction, and WAF bypass using tamper scripts', `## SQLMap Clone - SQL Injection Tool
 
 ### How SQLMap Works
 \`\`\`
@@ -601,7 +601,7 @@ python3 sqlmap_clone.py -u "http://target.com/page.php?id=1" --dbs
 // Module 2: AD Attack Tools
 const mod2 = insertModule.run(path1.lastInsertRowid, 'Build AD Attack Tools', 'Reimplement BloodHound collector, Rubeus, and credential tools', 1, now);
 
-insertTask.run(mod2.lastInsertRowid, 'Build BloodHound Data Collector', 'Collect AD data for attack path analysis', `## BloodHound Collector Clone
+insertTask.run(mod2.lastInsertRowid, 'Build BloodHound Data Collector', 'Enumerate Active Directory objects, group memberships, sessions, ACLs, and trusts via LDAP and SMB, outputting JSON files compatible with BloodHound for visualizing attack paths to domain admin', `## BloodHound Collector Clone
 
 ### How BloodHound Collection Works
 \`\`\`
@@ -949,7 +949,7 @@ python3 bloodhound_clone.py -d corp.local -u user -p 'Password123' --dc-ip 10.30
 # Drag JSON files into BloodHound GUI
 \`\`\``, 0, now);
 
-insertTask.run(mod2.lastInsertRowid, 'Build Kerberoasting Tool (Rubeus-style)', 'Request and crack service tickets', `## Kerberoasting Tool (Rubeus Clone)
+insertTask.run(mod2.lastInsertRowid, 'Build Kerberoasting Tool (Rubeus-style)', 'Enumerate SPNs in Active Directory, request TGS tickets for service accounts, extract the encrypted ticket portions in hashcat-compatible format, and perform offline password cracking against weak service account passwords', `## Kerberoasting Tool (Rubeus Clone)
 
 ### How Kerberoasting Works
 \`\`\`
@@ -1177,7 +1177,7 @@ python3 kerberoast_clone.py -d corp.local -u user -p 'Password123' --dc-ip 10.30
 hashcat -m 13100 hashes.txt wordlist.txt
 \`\`\``, 1, now);
 
-insertTask.run(mod2.lastInsertRowid, 'Build Credential Dumper (Mimikatz concepts)', 'Understand and implement credential extraction', `## Credential Dumper - Mimikatz Concepts
+insertTask.run(mod2.lastInsertRowid, 'Build Credential Dumper (Mimikatz concepts)', 'Understand Windows credential storage mechanisms and implement extraction techniques for LSASS memory, SAM database, cached domain credentials, and DPAPI secrets using Windows API and memory parsing', `## Credential Dumper - Mimikatz Concepts
 
 ### How Mimikatz Works
 \`\`\`

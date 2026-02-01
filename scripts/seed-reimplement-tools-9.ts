@@ -31,7 +31,7 @@ const c2Path = insertPath.run(
 // Module 1: Evil-WinRM
 const c2Mod1 = insertModule.run(c2Path.lastInsertRowid, 'Build Evil-WinRM Clone', 'WinRM shell with offensive features', 0, now);
 
-insertTask.run(c2Mod1.lastInsertRowid, 'Implement WinRM Protocol Client', 'Full WinRM/WSMan implementation', `## Evil-WinRM Implementation
+insertTask.run(c2Mod1.lastInsertRowid, 'Implement WinRM Protocol Client', 'Build a WinRM client implementing the WS-Management protocol over HTTP/S with NTLM and Kerberos authentication, SOAP envelope construction, PowerShell remoting support, and file transfer capabilities', `## Evil-WinRM Implementation
 
 ### WinRM Protocol Client
 \`\`\`python
@@ -453,7 +453,7 @@ if __name__ == '__main__':
 // Module 2: Sliver-Style C2
 const c2Mod2 = insertModule.run(c2Path.lastInsertRowid, 'Build Sliver-Style C2 Framework', 'Modern C2 with gRPC and implant generation', 1, now);
 
-insertTask.run(c2Mod2.lastInsertRowid, 'Build C2 Server with gRPC', 'Operator interface and implant management', `## Sliver-Style C2 Server
+insertTask.run(c2Mod2.lastInsertRowid, 'Build C2 Server with gRPC', 'Develop a C2 server using gRPC for operator-to-server communication, with multi-operator support, implant session management, task queuing, real-time event streaming, and persistent database storage', `## Sliver-Style C2 Server
 
 ### Server Architecture (Go)
 \`\`\`go
@@ -679,7 +679,7 @@ type GenerateRequest struct{}
 type GenerateResponse struct{}
 \`\`\``, 0, now);
 
-insertTask.run(c2Mod2.lastInsertRowid, 'Build Cross-Platform Implant Generator', 'Generate implants for Windows/Linux/macOS', `## Implant Generator
+insertTask.run(c2Mod2.lastInsertRowid, 'Build Cross-Platform Implant Generator', 'Create a build system that compiles implants for Windows, Linux, and macOS with configurable C2 endpoints, obfuscation options, embedded configuration, and output formats including executables, DLLs, and shellcode', `## Implant Generator
 
 ### Generator (Go)
 \`\`\`go
@@ -908,7 +908,7 @@ func main() {
 }
 \`\`\``, 1, now);
 
-insertTask.run(c2Mod2.lastInsertRowid, 'Build Operator CLI Interface', 'Interactive operator console', `## Operator CLI
+insertTask.run(c2Mod2.lastInsertRowid, 'Build Operator CLI Interface', 'Develop a command-line interface for red team operators to manage implants, execute tasks, view beacon callbacks, and interact with compromised hosts through session management and tabbed multi-agent workflows', `## Operator CLI
 
 ### Interactive Console (Go)
 \`\`\`go

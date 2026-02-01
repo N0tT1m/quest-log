@@ -27,7 +27,7 @@ const path1 = insertPath.run(
 // Module 1: Port Scanners
 const mod1 = insertModule.run(path1.lastInsertRowid, 'Build Port Scanners', 'Reimplement nmap and masscan functionality', 0, now);
 
-insertTask.run(mod1.lastInsertRowid, 'Build nmap-style TCP Connect Scanner', 'Implement full TCP connect scanning with service detection', `## Nmap-Style TCP Connect Scanner
+insertTask.run(mod1.lastInsertRowid, 'Build nmap-style TCP Connect Scanner', 'Implement a port scanner using full TCP connect with concurrent socket connections, configurable timeouts, service banner grabbing, and output formatting similar to nmap for network reconnaissance', `## Nmap-Style TCP Connect Scanner
 
 ### How Nmap Works
 \`\`\`
@@ -357,7 +357,7 @@ python3 nmap_clone.py -p- --threads 500 target.com
 4. Add script scanning (-sC)
 5. Add XML output (-oX)`, 0, now);
 
-insertTask.run(mod1.lastInsertRowid, 'Build masscan-style Async Scanner', 'Implement high-speed async port scanning', `## Masscan-Style Async Scanner
+insertTask.run(mod1.lastInsertRowid, 'Build masscan-style Async Scanner', 'Build an asynchronous port scanner using raw sockets with custom TCP/IP stack, randomized scanning order, configurable packet rate limiting, and stateless SYN scanning for internet-scale host discovery', `## Masscan-Style Async Scanner
 
 ### How Masscan Works
 \`\`\`
@@ -608,7 +608,7 @@ python3 masscan_clone.py 10.0.0.0/8 -p 80 --rate 10000
 // Module 2: Network Attack Tools
 const mod2 = insertModule.run(path1.lastInsertRowid, 'Build Network Attack Tools', 'Reimplement Responder, ntlmrelayx, and ARP tools', 1, now);
 
-insertTask.run(mod2.lastInsertRowid, 'Build Responder-style LLMNR/NBT-NS Poisoner', 'Capture credentials via name resolution poisoning', `## Responder Clone - LLMNR/NBT-NS Poisoner
+insertTask.run(mod2.lastInsertRowid, 'Build Responder-style LLMNR/NBT-NS Poisoner', 'Listen for and respond to LLMNR, NBT-NS, and mDNS broadcast name queries, poisoning responses to redirect authentication attempts to rogue SMB/HTTP servers and capture NTLM challenge-response hashes', `## Responder Clone - LLMNR/NBT-NS Poisoner
 
 ### How Responder Works
 \`\`\`
@@ -987,7 +987,7 @@ cat captured_hashes.txt
 hashcat -m 5600 captured_hashes.txt wordlist.txt
 \`\`\``, 0, now);
 
-insertTask.run(mod2.lastInsertRowid, 'Build ARP Spoofer for MITM', 'Implement ARP cache poisoning for traffic interception', `## ARP Spoofer - Man in the Middle
+insertTask.run(mod2.lastInsertRowid, 'Build ARP Spoofer for MITM', 'Poison ARP caches by sending gratuitous ARP replies to intercept traffic between hosts, implementing bidirectional spoofing with IP forwarding to maintain connectivity during man-in-the-middle attacks', `## ARP Spoofer - Man in the Middle
 
 ### How ARP Spoofing Works
 \`\`\`

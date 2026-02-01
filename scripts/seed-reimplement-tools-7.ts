@@ -30,7 +30,7 @@ const impacketPath = insertPath.run(
 
 const impacketMod1 = insertModule.run(impacketPath.lastInsertRowid, 'SMB & Authentication Tools', 'Reimplement core SMB and auth tools', 0, now);
 
-insertTask.run(impacketMod1.lastInsertRowid, 'Build smbclient-style SMB Browser', 'Interactive SMB share browser', `## SMB Client Implementation
+insertTask.run(impacketMod1.lastInsertRowid, 'Build smbclient-style SMB Browser', 'Create an interactive command-line interface for browsing SMB shares with directory listing, file upload/download, recursive operations, and authentication support for NTLM, Kerberos, and pass-the-hash methods', `## SMB Client Implementation
 
 ### Core SMB Library
 \`\`\`python
@@ -309,7 +309,7 @@ if __name__ == '__main__':
     main()
 \`\`\``, 0, now);
 
-insertTask.run(impacketMod1.lastInsertRowid, 'Build secretsdump Clone', 'Extract credentials via DCSync and SAM dump', `## Secretsdump Implementation
+insertTask.run(impacketMod1.lastInsertRowid, 'Build secretsdump Clone', 'Implement credential extraction using DCSync to replicate password hashes from domain controllers via DRSUAPI, local SAM database dumping via registry, and LSA secrets extraction for service account passwords', `## Secretsdump Implementation
 
 ### DCSync Attack
 \`\`\`python
@@ -524,7 +524,7 @@ if __name__ == '__main__':
     main()
 \`\`\``, 1, now);
 
-insertTask.run(impacketMod1.lastInsertRowid, 'Build psexec/wmiexec/smbexec Suite', 'Remote execution via different protocols', `## Remote Execution Suite
+insertTask.run(impacketMod1.lastInsertRowid, 'Build psexec/wmiexec/smbexec Suite', 'Implement remote command execution tools using SMB service creation (psexec), WMI process creation (wmiexec), and SMB named pipe shells (smbexec) for authenticated lateral movement in Windows environments', `## Remote Execution Suite
 
 ### PSExec Implementation
 \`\`\`python
@@ -736,7 +736,7 @@ if __name__ == '__main__':
 // Module 2: CrackMapExec
 const impacketMod2 = insertModule.run(impacketPath.lastInsertRowid, 'Build CrackMapExec Clone', 'Network-wide credential testing and enumeration', 1, now);
 
-insertTask.run(impacketMod2.lastInsertRowid, 'Build CrackMapExec Core Framework', 'Multi-protocol credential testing tool', `## CrackMapExec Clone
+insertTask.run(impacketMod2.lastInsertRowid, 'Build CrackMapExec Core Framework', 'Create a Swiss army knife for Active Directory pentesting with multi-protocol support (SMB, WinRM, MSSQL, LDAP), credential spraying, command execution, and modular post-exploitation capabilities', `## CrackMapExec Clone
 
 ### Core Framework
 \`\`\`python

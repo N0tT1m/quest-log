@@ -27,7 +27,7 @@ const netPath = insertPath.run(
 // Module 1: Packet Capture Fundamentals
 const mod1 = insertModule.run(netPath.lastInsertRowid, 'Packet Capture Fundamentals', 'Master tcpdump, Wireshark, and capture techniques', 0, now);
 
-insertTask.run(mod1.lastInsertRowid, 'Master tcpdump for command-line capture', 'Learn tcpdump syntax and filters for efficient packet capture', `## tcpdump Essentials
+insertTask.run(mod1.lastInsertRowid, 'Master tcpdump for command-line capture', 'Learn tcpdump BPF filter syntax for capturing specific traffic, output formatting options, writing to pcap files, and real-time traffic analysis on remote servers via SSH for network troubleshooting and security monitoring', `## tcpdump Essentials
 
 ### Basic Capture Commands
 \`\`\`bash
@@ -101,7 +101,7 @@ tcpdump -i eth0 'vlan 100'
 2. Filter only HTTPS handshakes (SYN packets to port 443)
 3. Save 5 minutes of traffic and analyze offline`, 0, now);
 
-insertTask.run(mod1.lastInsertRowid, 'Master Wireshark interface and navigation', 'Navigate Wireshark efficiently for traffic analysis', `## Wireshark Mastery
+insertTask.run(mod1.lastInsertRowid, 'Master Wireshark interface and navigation', 'Learn Wireshark navigation including column customization, display filter syntax, following TCP streams, expert info analysis, and using the Statistics menu for protocol hierarchy and endpoint analysis', `## Wireshark Mastery
 
 ### Display Filters (Different from Capture Filters!)
 \`\`\`
@@ -166,7 +166,7 @@ Create custom coloring for:
 2. Find all HTTP requests and their response codes
 3. Follow a complete TCP stream from SYN to FIN`, 1, now);
 
-insertTask.run(mod1.lastInsertRowid, 'Capture traffic in different network positions', 'Learn to capture traffic using spans, taps, and ARP spoofing', `## Network Capture Positions
+insertTask.run(mod1.lastInsertRowid, 'Capture traffic in different network positions', 'Understand network capture techniques including switch port mirroring (SPAN), network TAPs, hub-based capture, and active interception via ARP spoofing to gather traffic for security analysis', `## Network Capture Positions
 
 ### 1. SPAN/Mirror Port (Legitimate)
 \`\`\`
@@ -226,7 +226,7 @@ tcpdump -i wlan0mon -w wireless.pcap
 2. Use bettercap to intercept traffic between two VMs
 3. Capture wireless traffic and identify SSIDs`, 2, now);
 
-insertTask.run(mod1.lastInsertRowid, 'Extract files and objects from captures', 'Carve files, images, and data from packet captures', `## File Extraction from Packet Captures
+insertTask.run(mod1.lastInsertRowid, 'Extract files and objects from captures', 'Use Wireshark export objects, tcpflow, or NetworkMiner to carve transferred files including images, documents, executables, and archives from HTTP, SMB, and FTP traffic for forensic analysis', `## File Extraction from Packet Captures
 
 ### Wireshark Export Objects
 1. File → Export Objects → HTTP/SMB/TFTP/IMF
@@ -299,7 +299,7 @@ tshark -r capture.pcap -Y dns.qry.name -T fields -e dns.qry.name | sort -u
 // Module 2: Protocol Analysis
 const mod2 = insertModule.run(netPath.lastInsertRowid, 'Protocol Deep Dives', 'Analyze HTTP, DNS, TLS, and other protocols in depth', 1, now);
 
-insertTask.run(mod2.lastInsertRowid, 'Analyze HTTP traffic in depth', 'Understand HTTP requests, responses, and common attacks', `## HTTP Protocol Analysis
+insertTask.run(mod2.lastInsertRowid, 'Analyze HTTP traffic in depth', 'Dissect HTTP headers, methods, status codes, and body content to identify web vulnerabilities, credential leakage, injection attacks, and suspicious user-agent patterns in network captures', `## HTTP Protocol Analysis
 
 ### HTTP Request Structure
 \`\`\`
@@ -381,7 +381,7 @@ tshark -r capture.pcap -Y http.cookie -T fields \\
   -e ip.src -e http.cookie
 \`\`\``, 0, now);
 
-insertTask.run(mod2.lastInsertRowid, 'Master DNS traffic analysis', 'Analyze DNS for recon, tunneling, and exfiltration', `## DNS Protocol Analysis
+insertTask.run(mod2.lastInsertRowid, 'Master DNS traffic analysis', 'Analyze DNS queries and responses to detect reconnaissance patterns, identify DNS tunneling through entropy analysis and query volume, and recognize data exfiltration via long subdomain labels or TXT records', `## DNS Protocol Analysis
 
 ### DNS Record Types
 \`\`\`
@@ -467,7 +467,7 @@ dns.qry.type == 12   # PTR records
 dns.qry.name | count by ip.src
 \`\`\``, 1, now);
 
-insertTask.run(mod2.lastInsertRowid, 'Decrypt and analyze TLS traffic', 'Analyze encrypted traffic using keys and metadata', `## TLS/SSL Traffic Analysis
+insertTask.run(mod2.lastInsertRowid, 'Decrypt and analyze TLS traffic', 'Decrypt TLS sessions using pre-master secrets or session keys, analyze certificate chains for anomalies, examine JA3/JA3S fingerprints for client identification, and detect TLS-based C2 patterns', `## TLS/SSL Traffic Analysis
 
 ### TLS Without Decryption (Metadata Analysis)
 \`\`\`
@@ -547,7 +547,7 @@ tls.alert_message.description == 48  # Unknown CA
 2. Decrypt and analyze the HTTP inside
 3. Extract JA3 hashes and look up on ja3er.com`, 2, now);
 
-insertTask.run(mod2.lastInsertRowid, 'Analyze SMB and Active Directory traffic', 'Understand Windows network protocols', `## SMB/CIFS and AD Protocol Analysis
+insertTask.run(mod2.lastInsertRowid, 'Analyze SMB and Active Directory traffic', 'Dissect SMB negotiation, NTLM authentication, file operations, and Active Directory protocols including LDAP queries, Kerberos exchanges, and DRSUAPI replication to understand Windows network behavior', `## SMB/CIFS and AD Protocol Analysis
 
 ### SMB Basics
 \`\`\`
@@ -641,7 +641,7 @@ python3 Pcredz.py -f capture.pcap
 // Module 3: Network Forensics
 const mod3 = insertModule.run(netPath.lastInsertRowid, 'Network Forensics', 'Investigate incidents using network evidence', 2, now);
 
-insertTask.run(mod3.lastInsertRowid, 'Detect C2 beaconing patterns', 'Identify command and control traffic', `## C2 Beacon Detection
+insertTask.run(mod3.lastInsertRowid, 'Detect C2 beaconing patterns', 'Analyze network traffic for C2 indicators including periodic callback intervals, jitter patterns, DNS tunneling, HTTP beaconing, and encrypted channel characteristics to identify compromised hosts', `## C2 Beacon Detection
 
 ### Beaconing Characteristics
 \`\`\`
@@ -747,7 +747,7 @@ cat conn.log | zeek-cut id.orig_h id.resp_h \\
 # - VirusTotal
 \`\`\``, 0, now);
 
-insertTask.run(mod3.lastInsertRowid, 'Investigate data exfiltration', 'Detect and analyze data theft over the network', `## Data Exfiltration Detection
+insertTask.run(mod3.lastInsertRowid, 'Investigate data exfiltration', 'Identify data exfiltration by analyzing unusual outbound traffic volumes, detecting encoded data in DNS or HTTP, examining connections to cloud storage services, and correlating upload activity with sensitive file access', `## Data Exfiltration Detection
 
 ### Common Exfil Methods
 \`\`\`
@@ -840,7 +840,7 @@ tls.handshake.extensions_server_name contains "outlook"
 # 6. Connections to known-bad infrastructure
 \`\`\``, 1, now);
 
-insertTask.run(mod3.lastInsertRowid, 'Analyze malware network behavior', 'Identify malware through network traffic patterns', `## Malware Network Analysis
+insertTask.run(mod3.lastInsertRowid, 'Analyze malware network behavior', 'Profile malware network signatures by examining C2 protocol structures, domain generation algorithm patterns, certificate anomalies, and distinctive packet timing or sizing that characterize specific malware families', `## Malware Network Analysis
 
 ### Sandbox Network Capture
 \`\`\`bash
@@ -944,7 +944,7 @@ curl "https://www.virustotal.com/api/v3/ip_addresses/{ip}" \\
   -H "x-apikey: YOUR_API_KEY"
 \`\`\``, 2, now);
 
-insertTask.run(mod3.lastInsertRowid, 'Build network forensics timeline', 'Construct attack timeline from network evidence', `## Attack Timeline Construction
+insertTask.run(mod3.lastInsertRowid, 'Build network forensics timeline', 'Correlate packet timestamps with host logs to reconstruct attack sequences, mapping initial compromise, lateral movement, and data exfiltration phases into a coherent forensic timeline with evidence citations', `## Attack Timeline Construction
 
 ### Timeline Data Sources
 \`\`\`
@@ -1061,7 +1061,7 @@ end = datetime(2024, 1, 15, 18, 0, 0)
 // Module 4: Zeek (Bro) Deep Dive
 const mod4 = insertModule.run(netPath.lastInsertRowid, 'Zeek Network Monitoring', 'Deploy and use Zeek for comprehensive network visibility', 3, now);
 
-insertTask.run(mod4.lastInsertRowid, 'Deploy Zeek for network monitoring', 'Install and configure Zeek for traffic analysis', `## Zeek Deployment
+insertTask.run(mod4.lastInsertRowid, 'Deploy Zeek for network monitoring', 'Install Zeek on a network tap or span port, configure interfaces and log rotation, enable protocol analyzers, and set up log shipping to a SIEM for real-time network security monitoring and threat detection', `## Zeek Deployment
 
 ### Installation
 \`\`\`bash
@@ -1153,7 +1153,7 @@ Key logs:
 @load policy/protocols/ssh/detect-bruteforcing
 \`\`\``, 0, now);
 
-insertTask.run(mod4.lastInsertRowid, 'Master Zeek log analysis with zeek-cut', 'Query and analyze Zeek logs efficiently', `## Zeek Log Analysis
+insertTask.run(mod4.lastInsertRowid, 'Master Zeek log analysis with zeek-cut', 'Process Zeek connection, DNS, HTTP, and SSL logs using zeek-cut for field extraction, combined with grep, awk, and sort for hunting suspicious connections, unusual protocols, and anomalous traffic patterns', `## Zeek Log Analysis
 
 ### zeek-cut Basics
 \`\`\`bash
@@ -1247,7 +1247,7 @@ cat files.log | zeek-cut filename md5 sha1
 cat files.log | zeek-cut mime_type filename | grep executable
 \`\`\``, 1, now);
 
-insertTask.run(mod4.lastInsertRowid, 'Write custom Zeek detection scripts', 'Create Zeek scripts for custom threat detection', `## Custom Zeek Scripting
+insertTask.run(mod4.lastInsertRowid, 'Write custom Zeek detection scripts', 'Develop Zeek scripts using its event-driven scripting language to detect custom threats, track connection state, extract protocol-specific fields, and generate alerts for organization-specific attack patterns', `## Custom Zeek Scripting
 
 ### Zeek Script Basics
 \`\`\`zeek

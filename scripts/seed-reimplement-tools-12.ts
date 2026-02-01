@@ -41,7 +41,7 @@ const responderPath = insertPath.run(
 
 const respMod1 = insertModule.run(responderPath.lastInsertRowid, 'Protocol Poisoning', 'LLMNR and NBT-NS poisoning', 0, now);
 
-insertTask.run(respMod1.lastInsertRowid, 'Build LLMNR Poisoner', 'Respond to LLMNR queries', `## LLMNR Poisoner
+insertTask.run(respMod1.lastInsertRowid, 'Build LLMNR Poisoner', 'Intercept and respond to Link-Local Multicast Name Resolution (LLMNR) broadcast queries on UDP port 5355, poisoning name resolution to redirect authentication attempts and capture NTLM challenge-response hashes', `## LLMNR Poisoner
 
 ### Overview
 Link-Local Multicast Name Resolution (LLMNR) poisoning to capture credentials.
@@ -439,7 +439,7 @@ if __name__ == '__main__':
 \`\`\`
 `, 0, now);
 
-insertTask.run(respMod1.lastInsertRowid, 'Build Rogue SMB Server', 'Capture NTLM hashes via SMB', `## Rogue SMB Server
+insertTask.run(respMod1.lastInsertRowid, 'Build Rogue SMB Server', 'Implement a malicious SMB server that captures NTLMv1/v2 authentication hashes when clients connect, supporting SMBv1-3 protocol negotiation and NTLMSSP authentication message extraction for offline cracking', `## Rogue SMB Server
 
 ### Overview
 Capture NTLM hashes when clients connect to our rogue SMB server.
@@ -822,7 +822,7 @@ const relayPath = insertPath.run(
 
 const relayMod1 = insertModule.run(relayPath.lastInsertRowid, 'NTLM Relay Core', 'Relay authentication to targets', 0, now);
 
-insertTask.run(relayMod1.lastInsertRowid, 'Build NTLM Relay Framework', 'Core relay functionality', `## NTLM Relay Framework
+insertTask.run(relayMod1.lastInsertRowid, 'Build NTLM Relay Framework', 'Forward captured NTLM authentication messages to target services in real-time, acting as a man-in-the-middle to authenticate as the victim to SMB, HTTP, LDAP, MSSQL, or other NTLM-capable services without cracking passwords', `## NTLM Relay Framework
 
 ### Overview
 Relay NTLM authentication to other hosts instead of cracking hashes.
@@ -1129,7 +1129,7 @@ const coercerPath = insertPath.run(
 
 const coercerMod1 = insertModule.run(coercerPath.lastInsertRowid, 'Coercion Techniques', 'Force authentication via RPC', 0, now);
 
-insertTask.run(coercerMod1.lastInsertRowid, 'Build PetitPotam Clone', 'EFS-based authentication coercion', `## PetitPotam Implementation
+insertTask.run(coercerMod1.lastInsertRowid, 'Build PetitPotam Clone', 'Exploit the MS-EFSRPC protocol by calling EfsRpcOpenFileRaw with a UNC path pointing to an attacker-controlled server, coercing the target machine to authenticate and enabling NTLM relay attacks against domain controllers', `## PetitPotam Implementation
 
 ### Overview
 Abuse MS-EFSRPC to coerce Windows machines to authenticate.

@@ -31,7 +31,7 @@ const cPath = insertPath.run(
 // Module 1: C Foundations for Offensive Security
 const cMod1 = insertModule.run(cPath.lastInsertRowid, 'C Foundations for Offensive Security', 'Master C programming for security tool development', 0, now);
 
-insertTask.run(cMod1.lastInsertRowid, 'Build a Windows Process Lister', 'Enumerate all running processes using Windows API', `## Windows Process Enumerator in C
+insertTask.run(cMod1.lastInsertRowid, 'Build a Windows Process Lister', 'Use CreateToolhelp32Snapshot or NtQuerySystemInformation to enumerate running processes, extracting PIDs, names, parent relationships, and loaded modules for situational awareness on compromised hosts', `## Windows Process Enumerator in C
 
 ### Implementation
 \`\`\`c
@@ -147,7 +147,7 @@ cl process_list.c /Fe:process_list.exe
 3. Add CPU usage calculation
 4. Export to JSON format`, 0, now);
 
-insertTask.run(cMod1.lastInsertRowid, 'Implement DLL Injection via CreateRemoteThread', 'Classic DLL injection technique', `## DLL Injection in C
+insertTask.run(cMod1.lastInsertRowid, 'Implement DLL Injection via CreateRemoteThread', 'Inject a malicious DLL into a remote process by allocating memory with VirtualAllocEx, writing the DLL path with WriteProcessMemory, and spawning a thread via CreateRemoteThread that calls LoadLibrary', `## DLL Injection in C
 
 ### Injector Implementation
 \`\`\`c
@@ -278,7 +278,7 @@ x86_64-w64-mingw32-gcc injector.c -o injector.exe
 x86_64-w64-mingw32-gcc -shared payload.c -o payload.dll
 \`\`\``, 1, now);
 
-insertTask.run(cMod1.lastInsertRowid, 'Write Position-Independent Shellcode', 'Create shellcode that runs anywhere in memory', `## Position-Independent Shellcode in C
+insertTask.run(cMod1.lastInsertRowid, 'Write Position-Independent Shellcode', 'Develop shellcode using only relative addressing, PEB walking to resolve kernel32 and function addresses dynamically, and null-byte avoidance for successful injection into arbitrary memory locations', `## Position-Independent Shellcode in C
 
 ### Understanding PIC
 \`\`\`
@@ -410,7 +410,7 @@ _start:
 3. Create reverse shell shellcode
 4. Implement staged shellcode loader`, 2, now);
 
-insertTask.run(cMod1.lastInsertRowid, 'Implement Direct Syscalls', 'Bypass user-mode hooks with direct syscalls', `## Direct Syscalls in C
+insertTask.run(cMod1.lastInsertRowid, 'Implement Direct Syscalls', 'Invoke Windows syscalls directly by loading syscall numbers from ntdll, setting up the stack and registers, and executing the syscall instruction to bypass EDR hooks on user-mode API functions', `## Direct Syscalls in C
 
 ### Understanding Syscalls
 \`\`\`
@@ -582,7 +582,7 @@ int main() {
 // Module 2: C++ Offensive Tools
 const cMod2 = insertModule.run(cPath.lastInsertRowid, 'C++ Advanced Offensive Tools', 'Object-oriented approach to malware development', 1, now);
 
-insertTask.run(cMod2.lastInsertRowid, 'Build a Modular C2 Implant Framework', 'Create extensible implant architecture', `## C++ Modular Implant Framework
+insertTask.run(cMod2.lastInsertRowid, 'Build a Modular C2 Implant Framework', 'Design a plugin-based implant in C++ with dynamic module loading, encrypted C2 communications, reflective DLL injection for in-memory execution, and extensible command handlers for post-exploitation', `## C++ Modular Implant Framework
 
 ### Architecture
 \`\`\`
@@ -814,7 +814,7 @@ private:
 3. Add AES encryption layer
 4. Implement sleep obfuscation`, 0, now);
 
-insertTask.run(cMod2.lastInsertRowid, 'Create NTDLL Unhooking Library', 'Remove EDR hooks from ntdll.dll', `## NTDLL Unhooking in C++
+insertTask.run(cMod2.lastInsertRowid, 'Create NTDLL Unhooking Library', 'Restore original ntdll.dll syscall stubs by reading a clean copy from disk or KnownDlls, comparing with the in-memory version, and overwriting EDR inline hooks to bypass userland API monitoring', `## NTDLL Unhooking in C++
 
 ### Implementation
 \`\`\`cpp
@@ -1029,7 +1029,7 @@ const csPath = insertPath.run(
 
 const csMod1 = insertModule.run(csPath.lastInsertRowid, 'C# Offensive Fundamentals', 'Learn .NET tradecraft for red team operations', 0, now);
 
-insertTask.run(csMod1.lastInsertRowid, 'Build Process Hollowing in C#', 'Replace process memory with malicious payload', `## Process Hollowing in C#
+insertTask.run(csMod1.lastInsertRowid, 'Build Process Hollowing in C#', 'Create a suspended legitimate process, unmap its memory sections using NtUnmapViewOfSection, write malicious code into the hollowed process, fix the entry point, and resume execution for defense evasion', `## Process Hollowing in C#
 
 ### Implementation
 \`\`\`csharp
@@ -1211,7 +1211,7 @@ namespace ProcessHollowing
 3. Implement argument spoofing
 4. Add parent PID spoofing`, 0, now);
 
-insertTask.run(csMod1.lastInsertRowid, 'Implement AMSI Bypass Techniques', 'Disable Windows Antimalware Scan Interface', `## AMSI Bypass in C#
+insertTask.run(csMod1.lastInsertRowid, 'Implement AMSI Bypass Techniques', 'Patch the AmsiScanBuffer function in memory to return clean results, or unhook AMSI entirely by overwriting the amsi.dll scanning routines to allow execution of flagged PowerShell and .NET payloads', `## AMSI Bypass in C#
 
 ### Multiple Bypass Techniques
 \`\`\`csharp
@@ -1408,7 +1408,7 @@ static bool StealthBypass()
 }
 \`\`\``, 1, now);
 
-insertTask.run(csMod1.lastInsertRowid, 'Build In-Memory Assembly Loader', 'Execute .NET assemblies without touching disk', `## In-Memory Assembly Execution in C#
+insertTask.run(csMod1.lastInsertRowid, 'Build In-Memory Assembly Loader', 'Load and execute .NET assemblies directly from memory using Assembly.Load with byte arrays, avoiding disk writes and file-based detection while supporting argument passing and output capture', `## In-Memory Assembly Execution in C#
 
 ### Assembly Loader
 \`\`\`csharp
@@ -1613,7 +1613,7 @@ const rustPath = insertPath.run(
 
 const rustMod1 = insertModule.run(rustPath.lastInsertRowid, 'Rust Offensive Fundamentals', 'Core Rust skills for security tool development', 0, now);
 
-insertTask.run(rustMod1.lastInsertRowid, 'Build a Rust Port Scanner with Async', 'High-performance async scanner', `## Async Port Scanner in Rust
+insertTask.run(rustMod1.lastInsertRowid, 'Build a Rust Port Scanner with Async', 'Implement a concurrent TCP port scanner using Tokio async runtime with configurable parallelism, timeout handling, service banner grabbing, and efficient socket management for scanning large IP ranges', `## Async Port Scanner in Rust
 
 ### Cargo.toml
 \`\`\`toml
@@ -1737,7 +1737,7 @@ cargo build --release
 ./target/release/rscan 192.168.1.1 -s 1 -e 65535 -c 1000
 \`\`\``, 0, now);
 
-insertTask.run(rustMod1.lastInsertRowid, 'Create Windows Shellcode Loader in Rust', 'Execute shellcode using Windows API', `## Rust Shellcode Loader
+insertTask.run(rustMod1.lastInsertRowid, 'Create Windows Shellcode Loader in Rust', 'Build a shellcode executor using Rust windows-sys crate to allocate RWX memory with VirtualAlloc, copy position-independent shellcode, and transfer execution via function pointer casting or CreateThread', `## Rust Shellcode Loader
 
 ### Cargo.toml
 \`\`\`toml
@@ -1914,7 +1914,7 @@ const goPath = insertPath.run(
 
 const goMod1 = insertModule.run(goPath.lastInsertRowid, 'Go Offensive Fundamentals', 'Core Go skills for security tools', 0, now);
 
-insertTask.run(goMod1.lastInsertRowid, 'Build a Go HTTP C2 Server', 'Create command and control server', `## Go HTTP C2 Server
+insertTask.run(goMod1.lastInsertRowid, 'Build a Go HTTP C2 Server', 'Develop a command and control server in Go with HTTP/S listeners, agent registration, task queuing, encrypted communications using AES-GCM, and a REST API for operator interaction and implant management', `## Go HTTP C2 Server
 
 ### Server Implementation
 \`\`\`go
@@ -2110,7 +2110,7 @@ func main() {
 go build -o c2server server/main.go
 \`\`\``, 0, now);
 
-insertTask.run(goMod1.lastInsertRowid, 'Create a Go C2 Implant', 'Build cross-platform beacon', `## Go C2 Implant
+insertTask.run(goMod1.lastInsertRowid, 'Create a Go C2 Implant', 'Develop a cross-platform beacon implant in Go that compiles to standalone binaries for Windows, Linux, and macOS, featuring HTTP/S callbacks, sleep jitter, command execution, and modular post-exploitation capabilities', `## Go C2 Implant
 
 ### Implementation
 \`\`\`go
@@ -2351,7 +2351,7 @@ const pyPath = insertPath.run(
 
 const pyMod1 = insertModule.run(pyPath.lastInsertRowid, 'Python Offensive Scripting', 'Rapid offensive tool development', 0, now);
 
-insertTask.run(pyMod1.lastInsertRowid, 'Build an AD Enumeration Tool', 'Enumerate Active Directory with LDAP', `## Python AD Enumerator
+insertTask.run(pyMod1.lastInsertRowid, 'Build an AD Enumeration Tool', 'Query Active Directory via LDAP using Python ldap3 library to enumerate users, groups, computers, SPNs, delegation settings, and ACLs for mapping the domain and identifying attack vectors', `## Python AD Enumerator
 
 ### Implementation
 \`\`\`python
@@ -2592,7 +2592,7 @@ if __name__ == '__main__':
 python3 ad_enum.py -d lab.local -u user -p 'Password123' -dc 10.0.0.10 -o results.json
 \`\`\``, 0, now);
 
-insertTask.run(pyMod1.lastInsertRowid, 'Create Web Vulnerability Scanner', 'Automated web security testing tool', `## Python Web Vulnerability Scanner
+insertTask.run(pyMod1.lastInsertRowid, 'Create Web Vulnerability Scanner', 'Build an automated scanner that crawls web applications and tests for OWASP Top 10 vulnerabilities including SQL injection, XSS, SSRF, and path traversal using payload fuzzing and response analysis', `## Python Web Vulnerability Scanner
 
 ### Implementation
 \`\`\`python

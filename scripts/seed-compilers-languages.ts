@@ -111,7 +111,7 @@ const langPath = insertPath.run(
 // Module 1: Language Design
 const langMod1 = insertModule.run(langPath.lastInsertRowid, 'Language Design', 'Design your language before coding', 0, now);
 
-insertTask.run(langMod1.lastInsertRowid, 'Define Language Philosophy', 'Choose paradigm and design goals', `## Language Design Philosophy
+insertTask.run(langMod1.lastInsertRowid, 'Define Language Philosophy', 'Establish core language principles including paradigm choice (functional, OOP, procedural), type system design (static vs dynamic, inference), memory model, error handling strategy, and target use cases', `## Language Design Philosophy
 
 ### Key Decisions
 
@@ -228,7 +228,7 @@ primary     = NUMBER | STRING | "true" | "false" | "nil" | IDENTIFIER | "(" expr
 // Module 2: Lexer
 const langMod2 = insertModule.run(langPath.lastInsertRowid, 'Lexer Implementation', 'Tokenize source code', 1, now);
 
-insertTask.run(langMod2.lastInsertRowid, 'Build the Lexer', 'Tokenize source code into tokens', `## Lexer Implementation
+insertTask.run(langMod2.lastInsertRowid, 'Build the Lexer', 'Implement a lexical analyzer that scans source text character-by-character, recognizes language tokens (keywords, identifiers, literals, operators), handles whitespace and comments, and tracks source locations for error reporting', `## Lexer Implementation
 
 ### Python Implementation
 
@@ -575,7 +575,7 @@ if __name__ == '__main__':
 // Module 3: Parser
 const langMod3 = insertModule.run(langPath.lastInsertRowid, 'Parser Implementation', 'Parse tokens into AST', 2, now);
 
-insertTask.run(langMod3.lastInsertRowid, 'Build the Parser', 'Create Abstract Syntax Tree from tokens', `## Parser Implementation
+insertTask.run(langMod3.lastInsertRowid, 'Build the Parser', 'Implement a recursive descent or Pratt parser that consumes tokens and constructs an Abstract Syntax Tree, handling operator precedence, associativity, error recovery, and syntactic sugar desugaring', `## Parser Implementation
 
 ### Recursive Descent Parser
 
@@ -1031,7 +1031,7 @@ class Parser:
 // Module 4: Interpreter
 const langMod4 = insertModule.run(langPath.lastInsertRowid, 'Interpreter', 'Execute the AST', 3, now);
 
-insertTask.run(langMod4.lastInsertRowid, 'Build Tree-Walking Interpreter', 'Execute AST directly', `## Tree-Walking Interpreter
+insertTask.run(langMod4.lastInsertRowid, 'Build Tree-Walking Interpreter', 'Implement an interpreter that recursively traverses the Abstract Syntax Tree, evaluating expressions and executing statements directly without compilation to bytecode or machine code, handling scoping, function calls, and control flow', `## Tree-Walking Interpreter
 
 \`\`\`python
 #!/usr/bin/env python3
@@ -1351,7 +1351,7 @@ const rustCompilerPath = insertPath.run(
 
 const rustCompMod1 = insertModule.run(rustCompilerPath.lastInsertRowid, 'Rust Lexer', 'Build a lexer in Rust', 0, now);
 
-insertTask.run(rustCompMod1.lastInsertRowid, 'Build Rust Lexer', 'Tokenize source code in Rust', `## Rust Lexer Implementation
+insertTask.run(rustCompMod1.lastInsertRowid, 'Build Rust Lexer', 'Build a lexical analyzer in Rust that converts source text into tokens, handling keywords, identifiers, literals, operators, and whitespace with proper error reporting and source location tracking', `## Rust Lexer Implementation
 
 \`\`\`rust
 //! Lexer for a simple programming language
@@ -1776,7 +1776,7 @@ const goCompilerPath = insertPath.run(
 
 const goCompMod1 = insertModule.run(goCompilerPath.lastInsertRowid, 'Go Compiler Core', 'Build the compiler in Go', 0, now);
 
-insertTask.run(goCompMod1.lastInsertRowid, 'Build Go Lexer and Parser', 'Tokenize and parse in Go', `## Go Compiler Implementation
+insertTask.run(goCompMod1.lastInsertRowid, 'Build Go Lexer and Parser', 'Implement a lexer and recursive descent parser in Go that tokenizes source code and constructs an AST, leveraging Go interfaces for node types and built-in testing for validation', `## Go Compiler Implementation
 
 ### Lexer
 
@@ -2245,7 +2245,7 @@ Generate x86-64 assembly or compile to ELF directly.
 
 const cCompMod1 = insertModule.run(cCompilerPath.lastInsertRowid, 'C Compiler Basics', 'Low-level compiler implementation', 0, now);
 
-insertTask.run(cCompMod1.lastInsertRowid, 'Build C Lexer', 'Manual tokenization in C', `## C Lexer Implementation
+insertTask.run(cCompMod1.lastInsertRowid, 'Build C Lexer', 'Write a hand-rolled lexer in C using character-by-character processing, managing token buffers, handling escape sequences, and implementing efficient lookahead without external lexer generator dependencies', `## C Lexer Implementation
 
 \`\`\`c
 // lexer.h

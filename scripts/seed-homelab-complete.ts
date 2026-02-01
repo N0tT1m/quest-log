@@ -27,7 +27,7 @@ const labPath = insertPath.run(
 // Module 1: Infrastructure Automation with Ansible
 const mod1 = insertModule.run(labPath.lastInsertRowid, 'Ansible Lab Automation', 'Complete Ansible playbooks for automated lab deployment', 0, now);
 
-insertTask.run(mod1.lastInsertRowid, 'Set up Ansible control node', 'Configure your control machine for lab automation', `## Ansible Control Node Setup
+insertTask.run(mod1.lastInsertRowid, 'Set up Ansible control node', 'Install Ansible on a dedicated control machine, configure SSH key authentication to managed hosts, set up inventory files with host groups, and install required collections for Windows and network device management', `## Ansible Control Node Setup
 
 ### Directory Structure
 \`\`\`bash
@@ -198,7 +198,7 @@ ansible victims -m ping
 ansible-inventory --list
 \`\`\``, 0, now);
 
-insertTask.run(mod1.lastInsertRowid, 'Create master deployment playbook', 'Build the main playbook that deploys everything', `## Master Deployment Playbook
+insertTask.run(mod1.lastInsertRowid, 'Create master deployment playbook', 'Write an Ansible playbook that orchestrates complete lab deployment by importing role-specific playbooks in order, handling dependencies, and providing a single-command setup for the entire lab environment', `## Master Deployment Playbook
 
 ### Site Playbook (Main Entry Point)
 \`\`\`yaml
@@ -442,7 +442,7 @@ ansible-playbook playbooks/site.yml -vvv
 ansible-playbook playbooks/site.yml --check
 \`\`\``, 1, now);
 
-insertTask.run(mod1.lastInsertRowid, 'Create vulnerable target playbooks', 'Automate deployment of all vulnerable machines', `## Vulnerable Target Playbooks
+insertTask.run(mod1.lastInsertRowid, 'Create vulnerable target playbooks', 'Develop Ansible playbooks to deploy intentionally vulnerable machines including DVWA, Metasploitable, and custom Windows targets with specific CVEs for practicing exploitation techniques in an isolated lab', `## Vulnerable Target Playbooks
 
 ### Web Applications Playbook
 \`\`\`yaml
@@ -822,7 +822,7 @@ insertTask.run(mod1.lastInsertRowid, 'Create vulnerable target playbooks', 'Auto
 // Module 2: pfSense Firewall Configuration
 const mod2 = insertModule.run(labPath.lastInsertRowid, 'pfSense Firewall Setup', 'Complete pfSense configuration for lab segmentation', 1, now);
 
-insertTask.run(mod2.lastInsertRowid, 'Install and configure pfSense', 'Deploy pfSense as your lab firewall', `## pfSense Installation & Configuration
+insertTask.run(mod2.lastInsertRowid, 'Install and configure pfSense', 'Install pfSense on dedicated hardware or VM, configure WAN/LAN interfaces, set up DHCP, create firewall rules for lab network segmentation, and enable logging for traffic analysis and intrusion detection', `## pfSense Installation & Configuration
 
 ### Hardware/VM Requirements
 \`\`\`
@@ -935,7 +935,7 @@ Host Overrides:
   Host: juiceshop, Domain: hacklab.local, IP: 10.30.30.11
 \`\`\``, 0, now);
 
-insertTask.run(mod2.lastInsertRowid, 'Configure firewall rules for lab segmentation', 'Set up proper network isolation and access control', `## pfSense Firewall Rules
+insertTask.run(mod2.lastInsertRowid, 'Configure firewall rules for lab segmentation', 'Create pfSense firewall rules to isolate attack networks from production, permit specific traffic flows between lab segments, block internet access from vulnerable targets, and log all cross-segment traffic for analysis', `## pfSense Firewall Rules
 
 ### Rule Strategy
 \`\`\`
@@ -1095,7 +1095,7 @@ Diagnostics > Backup & Restore > Download Configuration
 // Module 3: Logging and Monitoring
 const mod3 = insertModule.run(labPath.lastInsertRowid, 'Logging & SIEM Setup', 'Deploy ELK stack for attack detection practice', 2, now);
 
-insertTask.run(mod3.lastInsertRowid, 'Deploy ELK stack with Docker', 'Set up Elasticsearch, Logstash, and Kibana', `## ELK Stack Deployment
+insertTask.run(mod3.lastInsertRowid, 'Deploy ELK stack with Docker', 'Deploy Elasticsearch, Logstash, and Kibana using Docker Compose with persistent volumes, configure Logstash pipelines for parsing syslog and Windows events, and create Kibana dashboards for security monitoring', `## ELK Stack Deployment
 
 ### Docker Compose Configuration
 \`\`\`yaml
@@ -1281,7 +1281,7 @@ Remote Logging Options:
 5. Dashboard > Create for visualizations
 \`\`\``, 0, now);
 
-insertTask.run(mod3.lastInsertRowid, 'Configure Windows event forwarding', 'Set up Winlogbeat on Windows targets', `## Windows Event Logging to ELK
+insertTask.run(mod3.lastInsertRowid, 'Configure Windows event forwarding', 'Deploy Winlogbeat agents on Windows hosts to ship Security, System, and Sysmon event logs to Elasticsearch, enabling centralized log analysis and SIEM alerting for detecting adversary techniques', `## Windows Event Logging to ELK
 
 ### Install Winlogbeat
 \`\`\`powershell
@@ -1411,7 +1411,7 @@ Get-Service Sysmon64
 // Module 4: C2 Framework Setup
 const mod4 = insertModule.run(labPath.lastInsertRowid, 'C2 Framework Deployment', 'Set up command and control infrastructure for practice', 3, now);
 
-insertTask.run(mod4.lastInsertRowid, 'Deploy Sliver C2 framework', 'Set up Sliver for red team operations practice', `## Sliver C2 Framework Setup
+insertTask.run(mod4.lastInsertRowid, 'Deploy Sliver C2 framework', 'Install and configure Sliver C2 server, generate implants for multiple platforms, set up HTTP/S and mTLS listeners, and practice operator workflows including pivoting, port forwarding, and post-exploitation modules', `## Sliver C2 Framework Setup
 
 ### Why Sliver?
 \`\`\`
@@ -1575,7 +1575,7 @@ socks5 start
         creates: /opt/sliver/operator.cfg
 \`\`\``, 0, now);
 
-insertTask.run(mod4.lastInsertRowid, 'Deploy Mythic C2 framework', 'Set up Mythic for advanced C2 practice', `## Mythic C2 Framework Setup
+insertTask.run(mod4.lastInsertRowid, 'Deploy Mythic C2 framework', 'Install and configure the Mythic C2 platform with agent deployment, listener setup, payload generation, and operator workflow to practice modern command and control techniques in a lab environment', `## Mythic C2 Framework Setup
 
 ### Why Mythic?
 \`\`\`
@@ -1742,7 +1742,7 @@ services:
 // Module 5: Lab Management
 const mod5 = insertModule.run(labPath.lastInsertRowid, 'Lab Management Scripts', 'Scripts for resetting, backing up, and managing the lab', 4, now);
 
-insertTask.run(mod5.lastInsertRowid, 'Create lab reset and rebuild scripts', 'Automate lab resets to clean state', `## Lab Reset & Management Scripts
+insertTask.run(mod5.lastInsertRowid, 'Create lab reset and rebuild scripts', 'Write automation scripts using Ansible or shell to snapshot VMs, restore to baseline states, rebuild compromised systems, and provision fresh lab environments for repeatable security testing scenarios', `## Lab Reset & Management Scripts
 
 ### Master Control Script
 \`\`\`bash
@@ -1966,7 +1966,7 @@ echo "Snapshots created!"
 0 0 1 * * root find /opt/homelab/backups -mtime +30 -delete
 \`\`\``, 0, now);
 
-insertTask.run(mod5.lastInsertRowid, 'Create machine tracking inventory', 'Build a system to track all lab assets', `## Lab Inventory & Tracking
+insertTask.run(mod5.lastInsertRowid, 'Create machine tracking inventory', 'Develop an inventory system documenting lab VMs, network configurations, credentials, installed tools, and machine purposes with version tracking to maintain organized and reproducible lab environments', `## Lab Inventory & Tracking
 
 ### Inventory Database
 \`\`\`bash
@@ -2171,7 +2171,7 @@ python3 /opt/homelab/inventory/dashboard.py &
 # Access at http://10.10.10.x:8888
 \`\`\``, 1, now);
 
-insertTask.run(mod5.lastInsertRowid, 'Build VPN for remote lab access', 'Set up WireGuard for secure remote access', `## WireGuard VPN for Remote Access
+insertTask.run(mod5.lastInsertRowid, 'Build VPN for remote lab access', 'Configure WireGuard VPN server on pfSense or a dedicated VM, generate client configurations with key pairs, set up split tunneling for lab network access, and enable secure remote administration of all lab systems', `## WireGuard VPN for Remote Access
 
 ### Why WireGuard?
 \`\`\`

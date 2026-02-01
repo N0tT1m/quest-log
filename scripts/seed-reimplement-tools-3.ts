@@ -27,7 +27,7 @@ const path1 = insertPath.run(
 // Module 1: Password Cracking
 const mod1 = insertModule.run(path1.lastInsertRowid, 'Build Password Crackers', 'Implement hashcat-style multi-algorithm password cracking', 0, now);
 
-insertTask.run(mod1.lastInsertRowid, 'Build Multi-Algorithm Hash Cracker', 'Hashcat-style cracker supporting MD5, SHA, NTLM, bcrypt', `## Hashcat Clone - Multi-Algorithm Cracker
+insertTask.run(mod1.lastInsertRowid, 'Build Multi-Algorithm Hash Cracker', 'Implement a password hash cracker with support for MD5, SHA-1, SHA-256, NTLM, and bcrypt algorithms, featuring dictionary attacks, rule-based mutations, and optimized hash computation using SIMD instructions', `## Hashcat Clone - Multi-Algorithm Cracker
 
 ### How Hashcat Works
 \`\`\`
@@ -441,7 +441,7 @@ python3 hashcrack.py hashes.txt --mask '?l?l?l?l?l?l?l?l'
 python3 hashcrack.py sha256.txt -m 1400 -w wordlist.txt -o cracked.txt
 \`\`\``, 0, now);
 
-insertTask.run(mod1.lastInsertRowid, 'Build WiFi Handshake Cracker', 'Crack WPA/WPA2 handshakes (aircrack-ng style)', `## WiFi Handshake Cracker
+insertTask.run(mod1.lastInsertRowid, 'Build WiFi Handshake Cracker', 'Parse captured 4-way EAPOL handshakes, derive PMK from passphrase candidates using PBKDF2-SHA1, compute PTK, and verify MIC to identify the correct WPA/WPA2 password through dictionary-based cracking', `## WiFi Handshake Cracker
 
 ### How WPA/WPA2 Cracking Works
 \`\`\`
@@ -685,7 +685,7 @@ python3 wificrack.py capture.pcap -w rockyou.txt
 # hashcat -m 22000 capture.hccapx wordlist.txt
 \`\`\``, 1, now);
 
-insertTask.run(mod1.lastInsertRowid, 'Build Online Password Sprayer (Hydra-style)', 'Attack network services with credential lists', `## Hydra Clone - Network Password Sprayer
+insertTask.run(mod1.lastInsertRowid, 'Build Online Password Sprayer (Hydra-style)', 'Implement concurrent password spraying against network services including SSH, FTP, SMB, RDP, and HTTP forms with configurable parallelism, timing controls, and success detection for various protocols', `## Hydra Clone - Network Password Sprayer
 
 ### How Hydra Works
 \`\`\`
@@ -1034,7 +1034,7 @@ python3 hydra_clone.py -t 10.30.30.100 -s smb -L users.txt -P passwords.txt
 // Module 2: WiFi Auditing Tools
 const mod2 = insertModule.run(path1.lastInsertRowid, 'Build WiFi Auditing Tools', 'Reimplement aircrack-ng suite functionality', 1, now);
 
-insertTask.run(mod2.lastInsertRowid, 'Build WiFi Scanner (airodump-ng style)', 'Scan and enumerate wireless networks', `## WiFi Scanner - Airodump-ng Clone
+insertTask.run(mod2.lastInsertRowid, 'Build WiFi Scanner (airodump-ng style)', 'Capture 802.11 frames in monitor mode to enumerate access points, connected clients, signal strengths, encryption types, and channel usage, displaying real-time network discovery similar to airodump-ng', `## WiFi Scanner - Airodump-ng Clone
 
 ### How WiFi Scanning Works
 \`\`\`
@@ -1322,7 +1322,7 @@ sudo python3 wifiscan.py wlan0mon
 4. WPS detection
 5. GPS logging`, 0, now);
 
-insertTask.run(mod2.lastInsertRowid, 'Build Deauthentication Attack Tool', 'Force clients to reconnect for handshake capture', `## Deauth Attack Tool - Aireplay-ng Clone
+insertTask.run(mod2.lastInsertRowid, 'Build Deauthentication Attack Tool', 'Send spoofed 802.11 deauthentication frames to disconnect clients from access points, forcing reauthentication to capture the WPA 4-way handshake for subsequent offline password cracking attacks', `## Deauth Attack Tool - Aireplay-ng Clone
 
 ### How Deauth Attacks Work
 \`\`\`

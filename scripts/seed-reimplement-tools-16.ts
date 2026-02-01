@@ -128,7 +128,7 @@ const metasploitPath = insertPath.run(
 
 const msfMod1 = insertModule.run(metasploitPath.lastInsertRowid, 'Framework Architecture', 'Core framework design', 0, now);
 
-insertTask.run(msfMod1.lastInsertRowid, 'Build Module Loading System', 'Dynamic module discovery and loading', `## Module Loading System
+insertTask.run(msfMod1.lastInsertRowid, 'Build Module Loading System', 'Create a plugin architecture for dynamically discovering, loading, and managing exploit, auxiliary, and post-exploitation modules with metadata parsing, dependency resolution, and runtime configuration', `## Module Loading System
 
 ### Python Implementation
 
@@ -639,7 +639,7 @@ if __name__ == '__main__':
 
 const msfMod2 = insertModule.run(metasploitPath.lastInsertRowid, 'Payload Generation', 'Shellcode and payload creation', 1, now);
 
-insertTask.run(msfMod2.lastInsertRowid, 'Build Meterpreter Shell', 'Advanced post-exploitation agent', `## Meterpreter Implementation
+insertTask.run(msfMod2.lastInsertRowid, 'Build Meterpreter Shell', 'Create a post-exploitation agent with in-memory execution, encrypted C2 communications, extensible command system, file system operations, privilege escalation modules, and pivoting capabilities through session routing', `## Meterpreter Implementation
 
 ### Core Meterpreter Agent
 
@@ -1070,7 +1070,7 @@ const cobaltPath = insertPath.run(
 
 const csMod1 = insertModule.run(cobaltPath.lastInsertRowid, 'Beacon Agent', 'Advanced implant development', 0, now);
 
-insertTask.run(csMod1.lastInsertRowid, 'Build Beacon Core', 'Sleep, jitter, and C2 communication', `## Beacon Implementation
+insertTask.run(csMod1.lastInsertRowid, 'Build Beacon Core', 'Implement the core beacon loop with configurable sleep intervals, randomized jitter for traffic evasion, malleable C2 profile support for HTTP request customization, and encrypted task retrieval and result submission', `## Beacon Implementation
 
 ### Go Beacon Agent
 
@@ -1497,7 +1497,7 @@ const xssPath = insertPath.run(
 
 const xssMod1 = insertModule.run(xssPath.lastInsertRowid, 'XSS Detection', 'Find XSS vulnerabilities', 0, now);
 
-insertTask.run(xssMod1.lastInsertRowid, 'Build XSS Scanner', 'Context-aware XSS detection', `## XSS Scanner Implementation
+insertTask.run(xssMod1.lastInsertRowid, 'Build XSS Scanner', 'Detect Cross-Site Scripting vulnerabilities by analyzing HTML parsing contexts and injecting context-appropriate payloads that escape attribute values, JavaScript strings, HTML tags, or URL parameters based on reflection point analysis', `## XSS Scanner Implementation
 
 \`\`\`python
 #!/usr/bin/env python3
@@ -1944,7 +1944,7 @@ const certifyPath = insertPath.run(
 
 const certMod1 = insertModule.run(certifyPath.lastInsertRowid, 'AD CS Enumeration', 'Find vulnerable certificate templates', 0, now);
 
-insertTask.run(certMod1.lastInsertRowid, 'Build AD CS Enumerator', 'Discover vulnerable certificate configurations', `## AD CS Enumeration
+insertTask.run(certMod1.lastInsertRowid, 'Build AD CS Enumerator', 'Query Active Directory for certificate templates, enrollment permissions, and CA configurations to identify ESC1-ESC8 vulnerabilities that allow privilege escalation through certificate abuse in AD CS environments', `## AD CS Enumeration
 
 \`\`\`python
 #!/usr/bin/env python3
@@ -2341,7 +2341,7 @@ const hashcatGPUPath = insertPath.run(
 
 const hashcatMod1 = insertModule.run(hashcatGPUPath.lastInsertRowid, 'GPU Hash Cracking', 'OpenCL-based password cracking', 0, now);
 
-insertTask.run(hashcatMod1.lastInsertRowid, 'Build OpenCL MD5 Cracker', 'GPU-accelerated MD5 dictionary attack', `## OpenCL MD5 Cracker
+insertTask.run(hashcatMod1.lastInsertRowid, 'Build OpenCL MD5 Cracker', 'Implement GPU-accelerated password cracking using OpenCL kernels for parallel MD5 computation, supporting dictionary attacks with wordlist streaming, candidate batching, and multi-device workload distribution', `## OpenCL MD5 Cracker
 
 ### OpenCL Kernel
 

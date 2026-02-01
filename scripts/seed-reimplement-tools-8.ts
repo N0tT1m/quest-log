@@ -31,7 +31,7 @@ const aircrackPath = insertPath.run(
 // Module 1: Wireless Monitoring Tools
 const airMod1 = insertModule.run(aircrackPath.lastInsertRowid, 'Wireless Monitoring Tools', 'Build airodump-ng, airmon-ng, and packet capture', 0, now);
 
-insertTask.run(airMod1.lastInsertRowid, 'Build airmon-ng Clone', 'Enable monitor mode on wireless interfaces', `## Airmon-ng Implementation
+insertTask.run(airMod1.lastInsertRowid, 'Build airmon-ng Clone', 'Implement wireless interface management that enables monitor mode via nl80211 netlink, kills interfering processes like NetworkManager, and configures channel hopping for passive 802.11 frame capture', `## Airmon-ng Implementation
 
 ### Understanding Monitor Mode
 \`\`\`
@@ -317,7 +317,7 @@ int set_monitor_mode(const char *ifname) {
 }
 \`\`\``, 0, now);
 
-insertTask.run(airMod1.lastInsertRowid, 'Build airodump-ng Clone', 'Wireless network scanner and packet capture', `## Airodump-ng Implementation
+insertTask.run(airMod1.lastInsertRowid, 'Build airodump-ng Clone', 'Capture 802.11 management and data frames in monitor mode, parse beacon frames for SSID and encryption info, track associated clients by MAC address, and display real-time network discovery with signal strength', `## Airodump-ng Implementation
 
 ### Core Scanner
 \`\`\`python
@@ -678,7 +678,7 @@ if __name__ == '__main__':
 // Module 2: Attack Tools
 const airMod2 = insertModule.run(aircrackPath.lastInsertRowid, 'Wireless Attack Tools', 'Build aireplay-ng and injection tools', 1, now);
 
-insertTask.run(airMod2.lastInsertRowid, 'Build aireplay-ng Clone', 'Packet injection and deauthentication attacks', `## Aireplay-ng Implementation
+insertTask.run(airMod2.lastInsertRowid, 'Build aireplay-ng Clone', 'Implement 802.11 frame injection for deauthentication attacks, fake authentication, ARP replay, and fragmentation attacks using raw socket transmission with proper frame checksums and timing', `## Aireplay-ng Implementation
 
 ### Injection Attacks
 \`\`\`python
@@ -926,7 +926,7 @@ if __name__ == '__main__':
 // Module 3: Cracking Tools
 const airMod3 = insertModule.run(aircrackPath.lastInsertRowid, 'WPA/WEP Cracking', 'Build aircrack-ng password cracker', 2, now);
 
-insertTask.run(airMod3.lastInsertRowid, 'Build aircrack-ng Clone', 'WPA/WPA2 and WEP password cracker', `## Aircrack-ng Implementation
+insertTask.run(airMod3.lastInsertRowid, 'Build aircrack-ng Clone', 'Implement wireless password cracking for WPA/WPA2 using captured 4-way handshakes with dictionary attacks and PBKDF2-based PMK derivation, plus legacy WEP cracking via statistical IV analysis and PTW attack', `## Aircrack-ng Implementation
 
 ### WPA/WPA2 Cracker
 \`\`\`python
@@ -1165,7 +1165,7 @@ if __name__ == '__main__':
     main()
 \`\`\``, 0, now);
 
-insertTask.run(airMod3.lastInsertRowid, 'Build PMKID Attack Tool', 'PMKID capture and cracking (hashcat mode)', `## PMKID Attack Implementation
+insertTask.run(airMod3.lastInsertRowid, 'Build PMKID Attack Tool', 'Capture PMKID from the first EAPOL frame of the WPA2 handshake without requiring a full 4-way capture, extract the hash in hashcat mode 22000 format, and perform offline cracking against wordlists', `## PMKID Attack Implementation
 
 ### PMKID Capture
 \`\`\`python

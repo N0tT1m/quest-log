@@ -41,7 +41,7 @@ const rubeusPath = insertPath.run(
 
 const rubMod1 = insertModule.run(rubeusPath.lastInsertRowid, 'Kerberos Roasting Attacks', 'AS-REP and Kerberoasting', 0, now);
 
-insertTask.run(rubMod1.lastInsertRowid, 'Build AS-REP Roaster', 'Extract hashes without pre-auth', `## AS-REP Roasting Implementation
+insertTask.run(rubMod1.lastInsertRowid, 'Build AS-REP Roaster', 'Identify accounts with Kerberos pre-authentication disabled, request AS-REP responses containing the encrypted timestamp, and extract the crackable portion for offline password attacks without any prior authentication', `## AS-REP Roasting Implementation
 
 ### Overview
 Extract AS-REP hashes from accounts without Kerberos pre-authentication.
@@ -340,7 +340,7 @@ hashcat -m 18200 hashes.txt wordlist.txt
 \`\`\`
 `, 0, now);
 
-insertTask.run(rubMod1.lastInsertRowid, 'Build Kerberoaster', 'Extract service ticket hashes', `## Kerberoasting Implementation
+insertTask.run(rubMod1.lastInsertRowid, 'Build Kerberoaster', 'Request TGS tickets for SPNs registered to service accounts and extract the encrypted portions for offline password cracking, exploiting that any domain user can request service tickets encrypted with the service account password hash', `## Kerberoasting Implementation
 
 ### Overview
 Request service tickets for SPNs and extract hashes for offline cracking.
@@ -623,7 +623,7 @@ hashcat -m 13100 hashes.txt wordlist.txt
 // Module 2: Ticket Operations
 const rubMod2 = insertModule.run(rubeusPath.lastInsertRowid, 'Ticket Operations', 'Ticket extraction and injection', 1, now);
 
-insertTask.run(rubMod2.lastInsertRowid, 'Build Pass-the-Ticket Tool', 'Inject Kerberos tickets', `## Pass-the-Ticket Implementation
+insertTask.run(rubMod2.lastInsertRowid, 'Build Pass-the-Ticket Tool', 'Import and inject Kerberos tickets into the current session or memory, enabling authentication to network services using harvested or forged tickets without knowing the underlying password or NTLM hash', `## Pass-the-Ticket Implementation
 
 ### Overview
 Extract, save, and inject Kerberos tickets for lateral movement.
@@ -1016,7 +1016,7 @@ if __name__ == '__main__':
 // Module 3: Delegation Attacks
 const rubMod3 = insertModule.run(rubeusPath.lastInsertRowid, 'Delegation Attacks', 'S4U and delegation abuse', 2, now);
 
-insertTask.run(rubMod3.lastInsertRowid, 'Build S4U Attack Tool', 'Constrained delegation abuse', `## S4U Delegation Attacks
+insertTask.run(rubMod3.lastInsertRowid, 'Build S4U Attack Tool', 'Exploit Kerberos S4U2Self and S4U2Proxy protocol extensions to impersonate arbitrary users to delegated services, abusing constrained and resource-based constrained delegation configurations for privilege escalation', `## S4U Delegation Attacks
 
 ### Overview
 Abuse S4U2Self and S4U2Proxy for constrained delegation attacks.
@@ -1297,7 +1297,7 @@ const bloodhoundPath = insertPath.run(
 
 const bhMod1 = insertModule.run(bloodhoundPath.lastInsertRowid, 'AD Data Collection', 'Enumerate AD objects and relationships', 0, now);
 
-insertTask.run(bhMod1.lastInsertRowid, 'Build LDAP Enumerator', 'Collect users, groups, and computers', `## AD LDAP Enumeration
+insertTask.run(bhMod1.lastInsertRowid, 'Build LDAP Enumerator', 'Query Active Directory via LDAP to enumerate users, groups, computers, OUs, GPOs, trusts, and ACLs, collecting the data needed to map attack paths and identify privilege escalation opportunities', `## AD LDAP Enumeration
 
 ### Overview
 Enumerate Active Directory objects via LDAP for BloodHound ingestion.

@@ -41,7 +41,7 @@ const hashcatPath = insertPath.run(
 
 const hashMod1 = insertModule.run(hashcatPath.lastInsertRowid, 'Hash Cracking Engine', 'Core password cracking functionality', 0, now);
 
-insertTask.run(hashMod1.lastInsertRowid, 'Build NTLM Cracker', 'Fast NTLM hash cracking', `## NTLM Hash Cracker
+insertTask.run(hashMod1.lastInsertRowid, 'Build NTLM Cracker', 'Implement high-speed NTLM hash cracking using optimized MD4 computation, supporting dictionary attacks, rule-based mutations, and mask attacks with GPU acceleration via OpenCL for cracking Windows password hashes', `## NTLM Hash Cracker
 
 ### Overview
 Build a high-performance NTLM hash cracker with dictionary and rule-based attacks.
@@ -418,7 +418,7 @@ const peasPath = insertPath.run(
 
 const peasMod1 = insertModule.run(peasPath.lastInsertRowid, 'Linux Privilege Escalation', 'LinPEAS-style enumeration', 0, now);
 
-insertTask.run(peasMod1.lastInsertRowid, 'Build Linux PrivEsc Checker', 'Enumerate Linux privilege escalation vectors', `## Linux Privilege Escalation Checker
+insertTask.run(peasMod1.lastInsertRowid, 'Build Linux PrivEsc Checker', 'Enumerate SUID binaries, writable paths, cron jobs, sudo permissions, kernel version, Docker socket access, and other privilege escalation vectors on Linux systems with color-coded output highlighting critical findings', `## Linux Privilege Escalation Checker
 
 ### Overview
 Automated enumeration of Linux privesc vectors.
@@ -903,7 +903,7 @@ const chiselPath = insertPath.run(
 
 const chiselMod1 = insertModule.run(chiselPath.lastInsertRowid, 'HTTP Tunneling', 'TCP over HTTP tunneling', 0, now);
 
-insertTask.run(chiselMod1.lastInsertRowid, 'Build HTTP Tunnel', 'TCP tunneling over HTTP', `## HTTP Tunnel
+insertTask.run(chiselMod1.lastInsertRowid, 'Build HTTP Tunnel', 'Encapsulate TCP traffic within HTTP/HTTPS requests using WebSocket upgrades or chunked encoding, bypassing firewalls and proxies to create reverse tunnels for accessing internal network services from external locations', `## HTTP Tunnel
 
 ### Overview
 Tunnel TCP connections over HTTP for firewall bypass.

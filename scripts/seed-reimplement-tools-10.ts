@@ -42,7 +42,7 @@ const mimikatzPath = insertPath.run(
 // Module 1: LSASS Memory Extraction
 const mimMod1 = insertModule.run(mimikatzPath.lastInsertRowid, 'LSASS Memory Extraction', 'Extract and parse LSASS process memory', 0, now);
 
-insertTask.run(mimMod1.lastInsertRowid, 'Build LSASS Memory Dumper', 'Dump LSASS process memory for offline analysis', `## LSASS Memory Dumper
+insertTask.run(mimMod1.lastInsertRowid, 'Build LSASS Memory Dumper', 'Create a tool to dump the LSASS process memory using MiniDumpWriteDump or direct memory reading with debug privileges, enabling offline credential extraction while avoiding real-time detection', `## LSASS Memory Dumper
 
 ### Overview
 Create a tool to dump LSASS process memory using multiple techniques to avoid detection.
@@ -366,7 +366,7 @@ if __name__ == "__main__":
 - Alert on suspicious rundll32.exe executions
 `, 0, now);
 
-insertTask.run(mimMod1.lastInsertRowid, 'Parse LSASS Memory for Credentials', 'Extract credentials from LSASS dump', `## LSASS Memory Parser
+insertTask.run(mimMod1.lastInsertRowid, 'Parse LSASS Memory for Credentials', 'Parse minidump files of the LSASS process to locate and decrypt cached credentials including NTLM hashes, Kerberos tickets, and plaintext passwords by navigating Windows memory structures and cryptographic contexts', `## LSASS Memory Parser
 
 ### Overview
 Parse LSASS memory dumps to extract credentials, including NTLM hashes, Kerberos tickets, and plaintext passwords.
@@ -660,7 +660,7 @@ if __name__ == "__main__":
 5. **LiveSSP** - Microsoft account creds
 `, 1, now);
 
-insertTask.run(mimMod1.lastInsertRowid, 'Implement sekurlsa Module', 'Full sekurlsa credential dumping', `## sekurlsa Module Implementation
+insertTask.run(mimMod1.lastInsertRowid, 'Implement sekurlsa Module', 'Replicate Mimikatz sekurlsa functionality to extract credentials from multiple Windows authentication packages including MSV1_0, Kerberos, WDigest, LiveSSP, and TsPkg using pattern matching and decryption routines', `## sekurlsa Module Implementation
 
 ### Overview
 Implement the sekurlsa module for live credential extraction from LSASS.
@@ -963,7 +963,7 @@ namespace Mimikatz
 // Module 2: Kerberos Attacks
 const mimMod2 = insertModule.run(mimikatzPath.lastInsertRowid, 'Kerberos Ticket Manipulation', 'Golden/Silver tickets and pass-the-ticket', 1, now);
 
-insertTask.run(mimMod2.lastInsertRowid, 'Build Golden Ticket Generator', 'Create forged TGTs', `## Golden Ticket Generator
+insertTask.run(mimMod2.lastInsertRowid, 'Build Golden Ticket Generator', 'Forge Kerberos Ticket-Granting Tickets (TGTs) using the KRBTGT account hash, enabling domain-wide authentication bypass and persistence by creating tickets for any user with arbitrary group memberships and extended validity periods', `## Golden Ticket Generator
 
 ### Overview
 Forge Kerberos TGT tickets using the KRBTGT hash for domain persistence.
@@ -1340,7 +1340,7 @@ Rubeus.exe ptt /ticket:admin.kirbi
 \`\`\`
 `, 0, now);
 
-insertTask.run(mimMod2.lastInsertRowid, 'Build Silver Ticket Generator', 'Forge service tickets', `## Silver Ticket Generator
+insertTask.run(mimMod2.lastInsertRowid, 'Build Silver Ticket Generator', 'Create forged Kerberos service tickets (TGS) using a service account NTLM hash or AES key, bypassing the KDC entirely to gain targeted access to specific services like CIFS, MSSQL, HTTP, or LDAP without domain controller interaction', `## Silver Ticket Generator
 
 ### Overview
 Forge Kerberos service tickets using the service account's hash for targeted access.
@@ -1728,7 +1728,7 @@ if __name__ == '__main__':
 // Module 3: DPAPI Secrets
 const mimMod3 = insertModule.run(mimikatzPath.lastInsertRowid, 'DPAPI Secrets Extraction', 'Extract DPAPI-protected secrets', 2, now);
 
-insertTask.run(mimMod3.lastInsertRowid, 'Build DPAPI Master Key Extractor', 'Extract and decrypt DPAPI master keys', `## DPAPI Master Key Extraction
+insertTask.run(mimMod3.lastInsertRowid, 'Build DPAPI Master Key Extractor', 'Locate and decrypt Windows Data Protection API master keys from user profiles and domain backup keys, enabling decryption of browser passwords, WiFi credentials, and other DPAPI-protected secrets', `## DPAPI Master Key Extraction
 
 ### Overview
 Extract DPAPI master keys for offline credential decryption.

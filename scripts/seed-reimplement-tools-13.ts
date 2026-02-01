@@ -41,7 +41,7 @@ const nmapPath = insertPath.run(
 
 const nmapMod1 = insertModule.run(nmapPath.lastInsertRowid, 'Port Scanning Engine', 'Multi-technique port scanning', 0, now);
 
-insertTask.run(nmapMod1.lastInsertRowid, 'Build TCP SYN Scanner', 'Half-open scanning with raw sockets', `## TCP SYN Scanner (Half-Open)
+insertTask.run(nmapMod1.lastInsertRowid, 'Build TCP SYN Scanner', 'Implement stealthy port scanning using raw sockets to send SYN packets and analyze responses (SYN-ACK for open, RST for closed) without completing the TCP handshake, avoiding full connection logging on targets', `## TCP SYN Scanner (Half-Open)
 
 ### Overview
 Build a fast SYN scanner using raw sockets for stealthy port detection.
@@ -467,7 +467,7 @@ if __name__ == '__main__':
 \`\`\`
 `, 0, now);
 
-insertTask.run(nmapMod1.lastInsertRowid, 'Build Service Detection Engine', 'Probe and identify services', `## Service Detection Engine
+insertTask.run(nmapMod1.lastInsertRowid, 'Build Service Detection Engine', 'Send protocol-specific probe packets to open ports and analyze responses using signature matching to identify running services, versions, and underlying operating systems through banner grabbing and protocol fingerprinting', `## Service Detection Engine
 
 ### Overview
 Identify services by sending probes and matching responses.
@@ -825,7 +825,7 @@ const ffufPath = insertPath.run(
 
 const ffufMod1 = insertModule.run(ffufPath.lastInsertRowid, 'Web Fuzzing Engine', 'High-performance HTTP fuzzer', 0, now);
 
-insertTask.run(ffufMod1.lastInsertRowid, 'Build Directory Buster', 'Discover hidden directories and files', `## Directory Buster
+insertTask.run(ffufMod1.lastInsertRowid, 'Build Directory Buster', 'Implement fast directory and file discovery using concurrent HTTP requests, wordlist processing, response filtering by size/status/word count, and recursive scanning for hidden web content enumeration', `## Directory Buster
 
 ### Overview
 Fast directory/file discovery using wordlists.
@@ -1176,7 +1176,7 @@ const nucleiPath = insertPath.run(
 
 const nucleiMod1 = insertModule.run(nucleiPath.lastInsertRowid, 'Template Engine', 'YAML template parsing and execution', 0, now);
 
-insertTask.run(nucleiMod1.lastInsertRowid, 'Build Template Parser', 'Parse Nuclei-style YAML templates', `## Template Parser
+insertTask.run(nucleiMod1.lastInsertRowid, 'Build Template Parser', 'Parse YAML-based vulnerability templates supporting HTTP request definitions, matchers (status, regex, word), extractors, conditional logic, and template variables for flexible security scanning workflows', `## Template Parser
 
 ### Overview
 Parse YAML templates for vulnerability detection.

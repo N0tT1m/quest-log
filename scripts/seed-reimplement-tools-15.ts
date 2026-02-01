@@ -88,7 +88,7 @@ const sqlmapPath = insertPath.run(
 
 const sqlMod1 = insertModule.run(sqlmapPath.lastInsertRowid, 'SQL Injection Detection', 'Detect injectable parameters', 0, now);
 
-insertTask.run(sqlMod1.lastInsertRowid, 'Build SQLi Detection Engine', 'Detect SQL injection vulnerabilities', `## SQL Injection Detection Engine
+insertTask.run(sqlMod1.lastInsertRowid, 'Build SQLi Detection Engine', 'Implement automated SQL injection detection using error-based, boolean-blind, time-based, and UNION techniques with payload fuzzing, response comparison, and database fingerprinting capabilities', `## SQL Injection Detection Engine
 
 ### Python Implementation
 
@@ -636,7 +636,7 @@ const burpPath = insertPath.run(
 
 const burpMod1 = insertModule.run(burpPath.lastInsertRowid, 'Intercepting Proxy', 'MITM HTTP/HTTPS proxy', 0, now);
 
-insertTask.run(burpMod1.lastInsertRowid, 'Build MITM Proxy', 'Intercept and modify HTTP/HTTPS traffic', `## MITM Proxy Implementation
+insertTask.run(burpMod1.lastInsertRowid, 'Build MITM Proxy', 'Create an intercepting proxy that terminates TLS connections with dynamic certificate generation, captures HTTP/S requests and responses, and allows real-time modification for web application security testing', `## MITM Proxy Implementation
 
 ### Python Implementation
 
@@ -1109,7 +1109,7 @@ const pspyPath = insertPath.run(
 
 const pspyMod1 = insertModule.run(pspyPath.lastInsertRowid, 'Process Monitoring', 'Monitor processes without root', 0, now);
 
-insertTask.run(pspyMod1.lastInsertRowid, 'Build Process Monitor', 'Monitor new processes via /proc', `## pspy Implementation
+insertTask.run(pspyMod1.lastInsertRowid, 'Build Process Monitor', 'Monitor process creation on Linux without root by polling /proc filesystem, using inotify on /proc entries, and extracting command-line arguments, environment variables, and user context for each spawned process', `## pspy Implementation
 
 ### Go Implementation
 
