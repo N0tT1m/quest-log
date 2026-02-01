@@ -17,12 +17,15 @@ const allSeedFiles = readdirSync(scriptsDir)
 
 // These specific scripts expand tasks for existing paths and must run last
 const taskExpansionScripts = [
+	'seed-deduplicate.ts',
 	'seed-expand-tasks.ts',
 	'seed-expand-tasks-2.ts',
 	'seed-expand-all-remaining.ts',
 	'seed-expand-final.ts',
 	'seed-expand-remaining-few.ts',
-	'seed-fix-empty-paths.ts'
+	'seed-expand-schedule-paths.ts',
+	'seed-fix-empty-paths.ts',
+	'seed-add-schedules.ts'
 ];
 
 const expansionFiles = allSeedFiles.filter((f) => taskExpansionScripts.includes(f)).sort();
