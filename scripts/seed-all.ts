@@ -11,9 +11,25 @@ import { join } from 'path';
 const scriptsDir = join(process.cwd(), 'scripts');
 
 // Get all seed files except this one and seed.ts (base schema)
-const seedFiles = readdirSync(scriptsDir)
-	.filter((f) => f.startsWith('seed-') && f.endsWith('.ts') && f !== 'seed-all.ts' && f !== 'seed.ts')
-	.sort();
+// Split into regular seeds and task expansion seeds (expansion scripts run last)
+const allSeedFiles = readdirSync(scriptsDir)
+	.filter((f) => f.startsWith('seed-') && f.endsWith('.ts') && f !== 'seed-all.ts' && f !== 'seed.ts');
+
+// These specific scripts expand tasks for existing paths and must run last
+const taskExpansionScripts = [
+	'seed-expand-tasks.ts',
+	'seed-expand-tasks-2.ts',
+	'seed-expand-all-remaining.ts',
+	'seed-expand-final.ts',
+	'seed-expand-remaining-few.ts',
+	'seed-fix-empty-paths.ts'
+];
+
+const expansionFiles = allSeedFiles.filter((f) => taskExpansionScripts.includes(f)).sort();
+const regularFiles = allSeedFiles.filter((f) => !taskExpansionScripts.includes(f)).sort();
+
+// Run regular seeds first, then expansion seeds
+const seedFiles = [...regularFiles, ...expansionFiles];
 
 console.log('=== Running All Seed Scripts ===\n');
 console.log('Found seed files:');

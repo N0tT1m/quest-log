@@ -8849,11 +8849,7 @@ impl App {
 async function seed() {
 	console.log('Seeding database with coding practice projects...');
 
-	// Clear existing data
-	sqlite.exec('DELETE FROM tasks');
-	sqlite.exec('DELETE FROM modules');
-	sqlite.exec('DELETE FROM paths');
-	sqlite.exec('DELETE FROM activity');
+	// Note: Don't clear data here - seed.ts handles that at the start of seed-all
 
 	for (const project of projects) {
 		// Insert path

@@ -381,6 +381,14 @@
 							return async ({ update }) => {
 								await update();
 								await invalidateAll();
+								// Update local state to reflect the toggle
+								if (selectedTask) {
+									selectedTask = {
+										...selectedTask,
+										completed: !selectedTask.completed,
+										completedAt: !selectedTask.completed ? new Date() : null
+									};
+								}
 							};
 						}}
 					>
