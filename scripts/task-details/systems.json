@@ -1,0 +1,1252 @@
+[
+  {
+    "pathName": "Build Your Own Programming Language",
+    "pathId": 10,
+    "tasks": [
+      {
+        "id": 1507,
+        "title": "Design token types",
+        "details": "## Overview\nDefine all tokens your language needs\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1508,
+        "title": "Implement lexer",
+        "details": "## Overview\nConvert source code to tokens\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1509,
+        "title": "Handle whitespace and comments",
+        "details": "## Overview\nSkip non-significant characters\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1510,
+        "title": "Add error reporting",
+        "details": "## Overview\nReport invalid tokens with line numbers\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1511,
+        "title": "Write lexer tests",
+        "details": "## Overview\nTest all token types\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1512,
+        "title": "Define grammar",
+        "details": "## Overview\nWrite BNF/EBNF grammar\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1513,
+        "title": "Implement recursive descent parser",
+        "details": "## Overview\nCompilers transform source code through: lexing (tokens), parsing (AST), semantic analysis, optimization, and code generation. Each phase has well-defined responsibilities.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1514,
+        "title": "Build AST nodes",
+        "details": "## Overview\nCreate abstract syntax tree\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1515,
+        "title": "Handle operator precedence",
+        "details": "## Overview\nCorrect parsing of expressions\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1516,
+        "title": "Add parser error recovery",
+        "details": "## Overview\nCompilers transform source code through: lexing (tokens), parsing (AST), semantic analysis, optimization, and code generation. Each phase has well-defined responsibilities.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1517,
+        "title": "Design IR or output format",
+        "details": "## Overview\nChoose compilation target\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1518,
+        "title": "Implement code generator",
+        "details": "## Overview\nWalk AST and emit code\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1519,
+        "title": "Handle control flow",
+        "details": "## Overview\nGenerate if/while/for\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1520,
+        "title": "Implement functions",
+        "details": "## Overview\nFunction calls and returns\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1521,
+        "title": "Add optimizations",
+        "details": "## Overview\nBasic optimization passes\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Build a Compiler in Rust",
+    "pathId": 11,
+    "tasks": [
+      {
+        "id": 1522,
+        "title": "Design token types",
+        "details": "## Overview\nDefine all tokens your language needs\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1523,
+        "title": "Implement lexer",
+        "details": "## Overview\nConvert source code to tokens\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1524,
+        "title": "Handle whitespace and comments",
+        "details": "## Overview\nSkip non-significant characters\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1525,
+        "title": "Add error reporting",
+        "details": "## Overview\nReport invalid tokens with line numbers\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1526,
+        "title": "Write lexer tests",
+        "details": "## Overview\nTest all token types\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1527,
+        "title": "Define grammar",
+        "details": "## Overview\nWrite BNF/EBNF grammar\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1528,
+        "title": "Implement recursive descent parser",
+        "details": "## Overview\nCompilers transform source code through: lexing (tokens), parsing (AST), semantic analysis, optimization, and code generation. Each phase has well-defined responsibilities.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1529,
+        "title": "Build AST nodes",
+        "details": "## Overview\nCreate abstract syntax tree\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1530,
+        "title": "Handle operator precedence",
+        "details": "## Overview\nCorrect parsing of expressions\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1531,
+        "title": "Add parser error recovery",
+        "details": "## Overview\nCompilers transform source code through: lexing (tokens), parsing (AST), semantic analysis, optimization, and code generation. Each phase has well-defined responsibilities.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1532,
+        "title": "Design IR or output format",
+        "details": "## Overview\nChoose compilation target\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1533,
+        "title": "Implement code generator",
+        "details": "## Overview\nWalk AST and emit code\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1534,
+        "title": "Handle control flow",
+        "details": "## Overview\nGenerate if/while/for\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1535,
+        "title": "Implement functions",
+        "details": "## Overview\nFunction calls and returns\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1536,
+        "title": "Add optimizations",
+        "details": "## Overview\nBasic optimization passes\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Build a Compiler in Go",
+    "pathId": 12,
+    "tasks": [
+      {
+        "id": 1537,
+        "title": "Design token types",
+        "details": "## Overview\nDefine all tokens your language needs\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1538,
+        "title": "Implement lexer",
+        "details": "## Overview\nConvert source code to tokens\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1539,
+        "title": "Handle whitespace and comments",
+        "details": "## Overview\nSkip non-significant characters\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1540,
+        "title": "Add error reporting",
+        "details": "## Overview\nReport invalid tokens with line numbers\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1541,
+        "title": "Write lexer tests",
+        "details": "## Overview\nTest all token types\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1542,
+        "title": "Define grammar",
+        "details": "## Overview\nWrite BNF/EBNF grammar\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1543,
+        "title": "Implement recursive descent parser",
+        "details": "## Overview\nCompilers transform source code through: lexing (tokens), parsing (AST), semantic analysis, optimization, and code generation. Each phase has well-defined responsibilities.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1544,
+        "title": "Build AST nodes",
+        "details": "## Overview\nCreate abstract syntax tree\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1545,
+        "title": "Handle operator precedence",
+        "details": "## Overview\nCorrect parsing of expressions\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1546,
+        "title": "Add parser error recovery",
+        "details": "## Overview\nCompilers transform source code through: lexing (tokens), parsing (AST), semantic analysis, optimization, and code generation. Each phase has well-defined responsibilities.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1547,
+        "title": "Design IR or output format",
+        "details": "## Overview\nChoose compilation target\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1548,
+        "title": "Implement code generator",
+        "details": "## Overview\nWalk AST and emit code\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1549,
+        "title": "Handle control flow",
+        "details": "## Overview\nGenerate if/while/for\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1550,
+        "title": "Implement functions",
+        "details": "## Overview\nFunction calls and returns\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1551,
+        "title": "Add optimizations",
+        "details": "## Overview\nBasic optimization passes\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Build a Compiler in C",
+    "pathId": 13,
+    "tasks": [
+      {
+        "id": 1552,
+        "title": "Design token types",
+        "details": "## Overview\nDefine all tokens your language needs\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1553,
+        "title": "Implement lexer",
+        "details": "## Overview\nConvert source code to tokens\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1554,
+        "title": "Handle whitespace and comments",
+        "details": "## Overview\nSkip non-significant characters\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1555,
+        "title": "Add error reporting",
+        "details": "## Overview\nReport invalid tokens with line numbers\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1556,
+        "title": "Write lexer tests",
+        "details": "## Overview\nTest all token types\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1557,
+        "title": "Define grammar",
+        "details": "## Overview\nWrite BNF/EBNF grammar\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1558,
+        "title": "Implement recursive descent parser",
+        "details": "## Overview\nCompilers transform source code through: lexing (tokens), parsing (AST), semantic analysis, optimization, and code generation. Each phase has well-defined responsibilities.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1559,
+        "title": "Build AST nodes",
+        "details": "## Overview\nCreate abstract syntax tree\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1560,
+        "title": "Handle operator precedence",
+        "details": "## Overview\nCorrect parsing of expressions\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1561,
+        "title": "Add parser error recovery",
+        "details": "## Overview\nCompilers transform source code through: lexing (tokens), parsing (AST), semantic analysis, optimization, and code generation. Each phase has well-defined responsibilities.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1562,
+        "title": "Design IR or output format",
+        "details": "## Overview\nChoose compilation target\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1563,
+        "title": "Implement code generator",
+        "details": "## Overview\nWalk AST and emit code\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1564,
+        "title": "Handle control flow",
+        "details": "## Overview\nGenerate if/while/for\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1565,
+        "title": "Implement functions",
+        "details": "## Overview\nFunction calls and returns\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1566,
+        "title": "Add optimizations",
+        "details": "## Overview\nBasic optimization passes\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Build Your Own Redis",
+    "pathId": 14,
+    "tasks": [
+      {
+        "id": 1567,
+        "title": "Implement hash table",
+        "details": "## Overview\nKey-value storage\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1568,
+        "title": "Build skip list or B-tree",
+        "details": "## Overview\nB-trees are self-balancing trees optimized for disk access. Operations maintain sorted order with O(log n) complexity. Node splits and merges handle insertions/deletions.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1569,
+        "title": "Add expiration support",
+        "details": "## Overview\nTTL handling\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1570,
+        "title": "Implement persistence",
+        "details": "## Overview\nWrite to disk\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1571,
+        "title": "Build WAL",
+        "details": "## Overview\nWrite-ahead logging\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1572,
+        "title": "Design wire protocol",
+        "details": "## Overview\nRESP or custom\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1573,
+        "title": "Implement parser",
+        "details": "## Overview\nCompilers transform source code through: lexing (tokens), parsing (AST), semantic analysis, optimization, and code generation. Each phase has well-defined responsibilities.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1574,
+        "title": "Add command handlers",
+        "details": "## Overview\nGET, SET, DELETE, etc.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1575,
+        "title": "Build client library",
+        "details": "## Overview\nEasy-to-use API\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1576,
+        "title": "Add pipelining",
+        "details": "## Overview\nBatch commands\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1577,
+        "title": "Implement transactions",
+        "details": "## Overview\nMULTI/EXEC or similar\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1578,
+        "title": "Add pub/sub",
+        "details": "## Overview\nMessage passing\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1579,
+        "title": "Build replication",
+        "details": "## Overview\nMaster-replica sync\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1580,
+        "title": "Add clustering",
+        "details": "## Overview\nDistributed storage\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1581,
+        "title": "Implement monitoring",
+        "details": "## Overview\nStats and metrics\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Build Your Own SQLite",
+    "pathId": 15,
+    "tasks": [
+      {
+        "id": 1458,
+        "title": "Parse SELECT statements",
+        "details": "## Overview\nFull SELECT support\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1460,
+        "title": "Add CREATE TABLE parsing",
+        "details": "## Overview\nDDL statements\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1465,
+        "title": "Add B-tree deletion",
+        "details": "## Overview\nB-trees are self-balancing trees optimized for disk access. Operations maintain sorted order with O(log n) complexity. Node splits and merges handle insertions/deletions.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1466,
+        "title": "Implement table storage",
+        "details": "## Overview\nRAG augments LLMs with external knowledge by embedding documents, retrieving relevant chunks for each query, and injecting them into the prompt context.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1467,
+        "title": "Add free list management",
+        "details": "## Overview\nReclaim deleted space\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1469,
+        "title": "Add transaction support",
+        "details": "## Overview\nBEGIN/COMMIT/ROLLBACK\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1470,
+        "title": "Implement locking",
+        "details": "## Overview\nConcurrency control\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1471,
+        "title": "Build REPL interface",
+        "details": "## Overview\nInteractive SQL shell\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1472,
+        "title": "Add index support",
+        "details": "## Overview\nCREATE INDEX\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Build Your Own LSM Tree",
+    "pathId": 16,
+    "tasks": [
+      {
+        "id": 1582,
+        "title": "Implement hash table",
+        "details": "## Overview\nKey-value storage\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1583,
+        "title": "Build skip list or B-tree",
+        "details": "## Overview\nB-trees are self-balancing trees optimized for disk access. Operations maintain sorted order with O(log n) complexity. Node splits and merges handle insertions/deletions.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1584,
+        "title": "Add expiration support",
+        "details": "## Overview\nTTL handling\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1585,
+        "title": "Implement persistence",
+        "details": "## Overview\nWrite to disk\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1586,
+        "title": "Build WAL",
+        "details": "## Overview\nWrite-ahead logging\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1587,
+        "title": "Design wire protocol",
+        "details": "## Overview\nRESP or custom\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1588,
+        "title": "Implement parser",
+        "details": "## Overview\nCompilers transform source code through: lexing (tokens), parsing (AST), semantic analysis, optimization, and code generation. Each phase has well-defined responsibilities.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1589,
+        "title": "Add command handlers",
+        "details": "## Overview\nGET, SET, DELETE, etc.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1590,
+        "title": "Build client library",
+        "details": "## Overview\nEasy-to-use API\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1591,
+        "title": "Add pipelining",
+        "details": "## Overview\nBatch commands\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1592,
+        "title": "Implement transactions",
+        "details": "## Overview\nMULTI/EXEC or similar\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1593,
+        "title": "Add pub/sub",
+        "details": "## Overview\nMessage passing\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1594,
+        "title": "Build replication",
+        "details": "## Overview\nMaster-replica sync\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1595,
+        "title": "Add clustering",
+        "details": "## Overview\nDistributed storage\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1596,
+        "title": "Implement monitoring",
+        "details": "## Overview\nStats and metrics\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Build Your Own Terraform",
+    "pathId": 18,
+    "tasks": [
+      {
+        "id": 1171,
+        "title": "Build resource graph",
+        "details": "## Overview\nDependency management\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1172,
+        "title": "Implement plan phase",
+        "details": "## Overview\nPreview changes\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1173,
+        "title": "Add apply phase",
+        "details": "## Overview\nExecute changes\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1174,
+        "title": "Build destroy phase",
+        "details": "## Overview\nRemove resources\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1175,
+        "title": "Implement refresh",
+        "details": "## Overview\nSync state\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1176,
+        "title": "Design provider interface",
+        "details": "## Overview\nCRUD operations\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1177,
+        "title": "Implement resource schema",
+        "details": "## Overview\nType definitions\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1178,
+        "title": "Add data sources",
+        "details": "## Overview\nRead-only resources\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1179,
+        "title": "Build provisioners",
+        "details": "## Overview\nLocal/remote exec\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1180,
+        "title": "Implement backends",
+        "details": "## Overview\nState storage\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Build Your Own Ray Tracer",
+    "pathId": 19,
+    "tasks": [
+      {
+        "id": 1597,
+        "title": "Implement ray-sphere intersection",
+        "details": "## Overview\nBasic geometry\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1598,
+        "title": "Build camera model",
+        "details": "## Overview\nGenerate rays\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1599,
+        "title": "Add basic shading",
+        "details": "## Overview\nDiffuse lighting\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1600,
+        "title": "Implement shadows",
+        "details": "## Overview\nShadow rays\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1601,
+        "title": "Add reflections",
+        "details": "## Overview\nRecursive ray tracing\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1602,
+        "title": "Implement materials",
+        "details": "## Overview\nDiffuse, specular, etc.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1603,
+        "title": "Add multiple light sources",
+        "details": "## Overview\nPoint, directional\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1604,
+        "title": "Build BVH acceleration",
+        "details": "## Overview\nFaster intersection\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1605,
+        "title": "Implement textures",
+        "details": "## Overview\nImage mapping\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1606,
+        "title": "Add anti-aliasing",
+        "details": "## Overview\nSupersampling\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Build Your Own TLS",
+    "pathId": 20,
+    "tasks": [
+      {
+        "id": 1607,
+        "title": "Understand the protocol",
+        "details": "## Overview\nRead RFC or specification\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1608,
+        "title": "Set up raw sockets or library",
+        "details": "## Overview\nTCP sockets provide reliable, ordered byte streams. Implementation requires handling: connection establishment, buffering, flow control, and graceful shutdown.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1609,
+        "title": "Implement packet parsing",
+        "details": "## Overview\nDecode protocol messages\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1610,
+        "title": "Build packet construction",
+        "details": "## Overview\nCreate valid packets\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1611,
+        "title": "Add error handling",
+        "details": "## Overview\nHandle malformed input\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1612,
+        "title": "Implement server/client",
+        "details": "## Overview\nBasic communication\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1613,
+        "title": "Add request handling",
+        "details": "## Overview\nProcess incoming requests\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1614,
+        "title": "Build response generation",
+        "details": "## Overview\nCreate proper responses\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1615,
+        "title": "Implement connection management",
+        "details": "## Overview\nHandle multiple clients\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1616,
+        "title": "Add logging",
+        "details": "## Overview\nDebug and monitor\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1617,
+        "title": "Add TLS support",
+        "details": "## Overview\nEncryption\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1618,
+        "title": "Implement caching",
+        "details": "## Overview\nPerformance optimization\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1619,
+        "title": "Build health checks",
+        "details": "## Overview\nMonitoring\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1620,
+        "title": "Add configuration",
+        "details": "## Overview\nRuntime settings\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1621,
+        "title": "Performance testing",
+        "details": "## Overview\nBenchmark and optimize\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Build Your Own Password Manager",
+    "pathId": 21,
+    "tasks": [
+      {
+        "id": 1622,
+        "title": "Implement key derivation",
+        "details": "## Overview\nPBKDF2 or Argon2\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1623,
+        "title": "Add encryption",
+        "details": "## Overview\nAES-256-GCM\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1624,
+        "title": "Build secure storage",
+        "details": "## Overview\nRAG augments LLMs with external knowledge by embedding documents, retrieving relevant chunks for each query, and injecting them into the prompt context.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1625,
+        "title": "Implement master password",
+        "details": "## Overview\nSingle password entry\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1626,
+        "title": "Add password generation",
+        "details": "## Overview\nRandom strong passwords\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1627,
+        "title": "Build CLI interface",
+        "details": "## Overview\nCommand-line access\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1628,
+        "title": "Add search and filter",
+        "details": "## Overview\nFind entries\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1629,
+        "title": "Implement clipboard integration",
+        "details": "## Overview\nCopy passwords\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1630,
+        "title": "Add import/export",
+        "details": "## Overview\nBackup and migrate\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1631,
+        "title": "Build browser extension",
+        "details": "## Overview\nAuto-fill support\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Build Your Own Packet Sniffer",
+    "pathId": 29,
+    "tasks": [
+      {
+        "id": 1632,
+        "title": "Understand the protocol",
+        "details": "## Overview\nRead RFC or specification\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1633,
+        "title": "Set up raw sockets or library",
+        "details": "## Overview\nTCP sockets provide reliable, ordered byte streams. Implementation requires handling: connection establishment, buffering, flow control, and graceful shutdown.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1634,
+        "title": "Implement packet parsing",
+        "details": "## Overview\nDecode protocol messages\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1635,
+        "title": "Build packet construction",
+        "details": "## Overview\nCreate valid packets\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1636,
+        "title": "Add error handling",
+        "details": "## Overview\nHandle malformed input\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1637,
+        "title": "Implement server/client",
+        "details": "## Overview\nBasic communication\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1638,
+        "title": "Add request handling",
+        "details": "## Overview\nProcess incoming requests\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1639,
+        "title": "Build response generation",
+        "details": "## Overview\nCreate proper responses\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1640,
+        "title": "Implement connection management",
+        "details": "## Overview\nHandle multiple clients\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1641,
+        "title": "Add logging",
+        "details": "## Overview\nDebug and monitor\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1642,
+        "title": "Add TLS support",
+        "details": "## Overview\nEncryption\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1643,
+        "title": "Implement caching",
+        "details": "## Overview\nPerformance optimization\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1644,
+        "title": "Build health checks",
+        "details": "## Overview\nMonitoring\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1645,
+        "title": "Add configuration",
+        "details": "## Overview\nRuntime settings\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1646,
+        "title": "Performance testing",
+        "details": "## Overview\nBenchmark and optimize\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Build Your Own DNS Server",
+    "pathId": 30,
+    "tasks": [
+      {
+        "id": 1647,
+        "title": "Understand the protocol",
+        "details": "## Overview\nRead RFC or specification\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1648,
+        "title": "Set up raw sockets or library",
+        "details": "## Overview\nTCP sockets provide reliable, ordered byte streams. Implementation requires handling: connection establishment, buffering, flow control, and graceful shutdown.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1649,
+        "title": "Implement packet parsing",
+        "details": "## Overview\nDecode protocol messages\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1650,
+        "title": "Build packet construction",
+        "details": "## Overview\nCreate valid packets\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1651,
+        "title": "Add error handling",
+        "details": "## Overview\nHandle malformed input\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1652,
+        "title": "Implement server/client",
+        "details": "## Overview\nBasic communication\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1653,
+        "title": "Add request handling",
+        "details": "## Overview\nProcess incoming requests\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1654,
+        "title": "Build response generation",
+        "details": "## Overview\nCreate proper responses\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1655,
+        "title": "Implement connection management",
+        "details": "## Overview\nHandle multiple clients\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1656,
+        "title": "Add logging",
+        "details": "## Overview\nDebug and monitor\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1657,
+        "title": "Add TLS support",
+        "details": "## Overview\nEncryption\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1658,
+        "title": "Implement caching",
+        "details": "## Overview\nPerformance optimization\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1659,
+        "title": "Build health checks",
+        "details": "## Overview\nMonitoring\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1660,
+        "title": "Add configuration",
+        "details": "## Overview\nRuntime settings\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1661,
+        "title": "Performance testing",
+        "details": "## Overview\nBenchmark and optimize\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Build Your Own Load Balancer",
+    "pathId": 31,
+    "tasks": [
+      {
+        "id": 1662,
+        "title": "Understand the protocol",
+        "details": "## Overview\nRead RFC or specification\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1663,
+        "title": "Set up raw sockets or library",
+        "details": "## Overview\nTCP sockets provide reliable, ordered byte streams. Implementation requires handling: connection establishment, buffering, flow control, and graceful shutdown.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1664,
+        "title": "Implement packet parsing",
+        "details": "## Overview\nDecode protocol messages\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1665,
+        "title": "Build packet construction",
+        "details": "## Overview\nCreate valid packets\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1666,
+        "title": "Add error handling",
+        "details": "## Overview\nHandle malformed input\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1667,
+        "title": "Implement server/client",
+        "details": "## Overview\nBasic communication\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1668,
+        "title": "Add request handling",
+        "details": "## Overview\nProcess incoming requests\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1669,
+        "title": "Build response generation",
+        "details": "## Overview\nCreate proper responses\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1670,
+        "title": "Implement connection management",
+        "details": "## Overview\nHandle multiple clients\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1671,
+        "title": "Add logging",
+        "details": "## Overview\nDebug and monitor\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1672,
+        "title": "Add TLS support",
+        "details": "## Overview\nEncryption\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1673,
+        "title": "Implement caching",
+        "details": "## Overview\nPerformance optimization\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1674,
+        "title": "Build health checks",
+        "details": "## Overview\nMonitoring\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1675,
+        "title": "Add configuration",
+        "details": "## Overview\nRuntime settings\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1676,
+        "title": "Performance testing",
+        "details": "## Overview\nBenchmark and optimize\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Build Your Own HTTP Server",
+    "pathId": 32,
+    "tasks": [
+      {
+        "id": 1677,
+        "title": "Understand the protocol",
+        "details": "## Overview\nRead RFC or specification\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1678,
+        "title": "Set up raw sockets or library",
+        "details": "## Overview\nTCP sockets provide reliable, ordered byte streams. Implementation requires handling: connection establishment, buffering, flow control, and graceful shutdown.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1679,
+        "title": "Implement packet parsing",
+        "details": "## Overview\nDecode protocol messages\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1680,
+        "title": "Build packet construction",
+        "details": "## Overview\nCreate valid packets\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1681,
+        "title": "Add error handling",
+        "details": "## Overview\nHandle malformed input\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1682,
+        "title": "Implement server/client",
+        "details": "## Overview\nBasic communication\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1683,
+        "title": "Add request handling",
+        "details": "## Overview\nProcess incoming requests\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1684,
+        "title": "Build response generation",
+        "details": "## Overview\nCreate proper responses\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1685,
+        "title": "Implement connection management",
+        "details": "## Overview\nHandle multiple clients\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1686,
+        "title": "Add logging",
+        "details": "## Overview\nDebug and monitor\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1687,
+        "title": "Add TLS support",
+        "details": "## Overview\nEncryption\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1688,
+        "title": "Implement caching",
+        "details": "## Overview\nPerformance optimization\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1689,
+        "title": "Build health checks",
+        "details": "## Overview\nMonitoring\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1690,
+        "title": "Add configuration",
+        "details": "## Overview\nRuntime settings\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1691,
+        "title": "Performance testing",
+        "details": "## Overview\nBenchmark and optimize\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Build Your Own Shell",
+    "pathId": 94,
+    "tasks": [
+      {
+        "id": 1441,
+        "title": "Add PATH searching",
+        "details": "## Overview\nFind executables\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1443,
+        "title": "Implement environment variables",
+        "details": "## Overview\ngetenv/setenv\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1444,
+        "title": "Add input redirection",
+        "details": "## Overview\n< operator\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1446,
+        "title": "Build stderr redirection",
+        "details": "## Overview\n2> operator\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1448,
+        "title": "Add multiple pipes",
+        "details": "## Overview\ncmd1 | cmd2 | cmd3\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1449,
+        "title": "Implement here documents",
+        "details": "## Overview\n<< operator\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1450,
+        "title": "Add background execution",
+        "details": "## Overview\n& operator\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1451,
+        "title": "Implement job listing",
+        "details": "## Overview\njobs command\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1452,
+        "title": "Build fg/bg commands",
+        "details": "## Overview\nJob control\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1455,
+        "title": "Implement tab completion",
+        "details": "## Overview\nAutocomplete paths/commands\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Build Your Own Debugger",
+    "pathId": 96,
+    "tasks": [
+      {
+        "id": 1269,
+        "title": "Implement single-stepping",
+        "details": "## Overview\nExecute one instruction\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1270,
+        "title": "Understand INT3 instruction",
+        "details": "## Overview\nx86 breakpoint mechanism\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1275,
+        "title": "Implement watchpoints",
+        "details": "## Overview\nBreak on memory access\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Build Your Own Memory Allocator",
+    "pathId": 97,
+    "tasks": [
+      {
+        "id": 1285,
+        "title": "Implement first-fit strategy",
+        "details": "## Overview\nSimple allocation strategy\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1286,
+        "title": "Add best-fit strategy",
+        "details": "## Overview\nMinimize waste\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Build Your Own Thread Pool",
+    "pathId": 98,
+    "tasks": [
+      {
+        "id": 1311,
+        "title": "Implement adaptive sizing",
+        "details": "## Overview\nDynamic thread count\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Build Your Own Async Runtime",
+    "pathId": 99,
+    "tasks": [
+      {
+        "id": 1312,
+        "title": "Understand async/await model",
+        "details": "## Overview\nAsync runtimes use event loops and non-blocking I/O to handle many concurrent operations with few threads. Key components: executor, reactor, and Future abstraction.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1315,
+        "title": "Build Waker mechanism",
+        "details": "## Overview\nWake sleeping tasks\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1321,
+        "title": "Add async file I/O",
+        "details": "## Overview\nAsync runtimes use event loops and non-blocking I/O to handle many concurrent operations with few threads. Key components: executor, reactor, and Future abstraction.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1324,
+        "title": "Build work-stealing scheduler",
+        "details": "## Overview\nParallel task execution\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1325,
+        "title": "Add thread-safe wakers",
+        "details": "## Overview\nCross-thread wake\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1326,
+        "title": "Implement task pinning",
+        "details": "## Overview\n!Send futures\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  }
+]

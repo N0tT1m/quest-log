@@ -1,0 +1,286 @@
+[
+  {
+    "pathName": "HTTP Proxy with Caching",
+    "pathId": 37,
+    "tasks": [
+      {
+        "id": 794,
+        "title": "Implement chunked transfer",
+        "details": "## Overview\nHandle streaming responses\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 795,
+        "title": "Build header manipulation",
+        "details": "## Overview\nModify requests/responses\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 798,
+        "title": "Build cache validation",
+        "details": "## Overview\nETag and Last-Modified\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 799,
+        "title": "Add cache eviction",
+        "details": "## Overview\nLRU when full\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 800,
+        "title": "Implement cache warming",
+        "details": "## Overview\nPre-populate cache\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 801,
+        "title": "Build cache statistics",
+        "details": "## Overview\nHit/miss metrics\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Reimplement: Impacket Suite",
+    "pathId": 57,
+    "tasks": [
+      {
+        "id": 916,
+        "title": "Implement SMB client",
+        "details": "## Overview\nSMB2/3 protocol\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 917,
+        "title": "Build MSRPC layer",
+        "details": "## Overview\nDCE/RPC\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 918,
+        "title": "Add LDAP client",
+        "details": "## Overview\nDirectory queries\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 919,
+        "title": "Implement Kerberos",
+        "details": "## Overview\nActive Directory attacks target Windows domain infrastructure. Key techniques: Kerberoasting, AS-REP roasting, DCSync, Golden/Silver tickets, and delegation abuse.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 920,
+        "title": "Build NTLM authentication",
+        "details": "## Overview\nChallenge-response\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 921,
+        "title": "Add secretsdump foundation",
+        "details": "## Overview\nRemote registry\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 922,
+        "title": "Build psexec",
+        "details": "## Overview\nRemote execution\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 923,
+        "title": "Implement smbexec",
+        "details": "## Overview\nStealthier execution\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 924,
+        "title": "Add wmiexec",
+        "details": "## Overview\nWMI execution\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 925,
+        "title": "Build secretsdump",
+        "details": "## Overview\nCredential extraction\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 926,
+        "title": "Implement GetNPUsers",
+        "details": "## Overview\nAS-REP roasting\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 927,
+        "title": "Add GetUserSPNs",
+        "details": "## Overview\nKerberoasting\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1201,
+        "title": "Implement SMB client",
+        "details": "## Overview\nFile sharing\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1202,
+        "title": "Build DCE/RPC",
+        "details": "## Overview\nRemote procedure calls\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1203,
+        "title": "Add NTLM authentication",
+        "details": "## Overview\nWindows auth\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1204,
+        "title": "Implement Kerberos client",
+        "details": "## Overview\nActive Directory attacks target Windows domain infrastructure. Key techniques: Kerberoasting, AS-REP roasting, DCSync, Golden/Silver tickets, and delegation abuse.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1205,
+        "title": "Build LDAP queries",
+        "details": "## Overview\nDirectory access\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1206,
+        "title": "Build secretsdump",
+        "details": "## Overview\nExtract credentials\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1207,
+        "title": "Implement psexec",
+        "details": "## Overview\nRemote execution\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1208,
+        "title": "Add wmiexec",
+        "details": "## Overview\nWMI execution\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1209,
+        "title": "Build smbexec",
+        "details": "## Overview\nSMB execution\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1210,
+        "title": "Implement GetNPUsers",
+        "details": "## Overview\nAS-REP roasting\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Reimplement: Nmap Network Scanner",
+    "pathId": 68,
+    "tasks": [
+      {
+        "id": 1084,
+        "title": "Implement TCP connect scan",
+        "details": "## Overview\nTCP sockets provide reliable, ordered byte streams. Implementation requires handling: connection establishment, buffering, flow control, and graceful shutdown.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1085,
+        "title": "Build SYN scan",
+        "details": "## Overview\nHalf-open scan\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1086,
+        "title": "Add UDP scan",
+        "details": "## Overview\nUDP port detection\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1087,
+        "title": "Implement service detection",
+        "details": "## Overview\nBanner grabbing\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1088,
+        "title": "Build OS detection",
+        "details": "## Overview\nTCP/IP fingerprint\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1089,
+        "title": "Add timing controls",
+        "details": "## Overview\nScan speed\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1090,
+        "title": "Implement host discovery",
+        "details": "## Overview\nFind live hosts\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1091,
+        "title": "Build script engine",
+        "details": "## Overview\nNSE equivalent\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1092,
+        "title": "Add output formats",
+        "details": "## Overview\nReport results\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1093,
+        "title": "Implement evasion",
+        "details": "## Overview\nEvasion techniques avoid detection by security controls. Methods include obfuscation, encryption, living-off-the-land binaries, and timing-based detection bypass.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1094,
+        "title": "Build target specification",
+        "details": "## Overview\nInput handling\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1095,
+        "title": "Add IPv6 support",
+        "details": "## Overview\nIPv6 scanning\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  },
+  {
+    "pathName": "Reimplement: Network Tunneling Tools",
+    "pathId": 73,
+    "tasks": [
+      {
+        "id": 964,
+        "title": "Build local port forward",
+        "details": "## Overview\nBind and connect\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 965,
+        "title": "Implement remote port forward",
+        "details": "## Overview\nReverse tunnel\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 966,
+        "title": "Add dynamic port forward",
+        "details": "## Overview\nSOCKS proxy\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 967,
+        "title": "Build connection multiplexing",
+        "details": "## Overview\nShare tunnel\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 968,
+        "title": "Implement SSH tunneling",
+        "details": "## Overview\nFull SSH support\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 969,
+        "title": "Add auto-reconnect",
+        "details": "## Overview\nMaintain tunnel\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 970,
+        "title": "Build DNS tunnel",
+        "details": "## Overview\nDNS translates domain names to IP addresses. Implementation covers: packet parsing, recursive resolution, caching, and handling various record types (A, AAAA, CNAME, MX).\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 971,
+        "title": "Implement ICMP tunnel",
+        "details": "## Overview\nTunnel over ping\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 972,
+        "title": "Add HTTP tunnel",
+        "details": "## Overview\nWeb-based tunnel\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 973,
+        "title": "Build double pivot",
+        "details": "## Overview\nLateral movement techniques allow attackers to spread through a network after initial access. Methods include pass-the-hash, token manipulation, and remote service exploitation.\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 974,
+        "title": "Implement VPN-like mode",
+        "details": "## Overview\nFull network access\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 975,
+        "title": "Add traffic obfuscation",
+        "details": "## Overview\nHide tunnel traffic\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  }
+]

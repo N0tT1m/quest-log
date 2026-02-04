@@ -1,0 +1,43 @@
+[
+  {
+    "pathName": "Simple Key-Value Store",
+    "pathId": 40,
+    "tasks": [
+      {
+        "id": 1342,
+        "title": "Implement basic hash map",
+        "details": "## Overview\nCore data structure\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1343,
+        "title": "Add GET/SET/DELETE",
+        "details": "## Overview\nBasic operations\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1346,
+        "title": "Build pub/sub",
+        "details": "## Overview\nMessage channels\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1347,
+        "title": "Add data types",
+        "details": "## Overview\nLists, sets, hashes\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1349,
+        "title": "Build AOF logging",
+        "details": "## Overview\nAppend-only file\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1350,
+        "title": "Add fsync policies",
+        "details": "## Overview\nDurability options\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      },
+      {
+        "id": 1353,
+        "title": "Add background saves",
+        "details": "## Overview\nNon-blocking persistence\n\n### Implementation\nFollow the implementation steps in the task description. Start with a minimal working version, then iterate.\n\n### Key Concepts\n- Understand the core algorithm before coding\n- Handle edge cases explicitly\n- Test against reference implementations\n- Profile for performance bottlenecks\n\n### Practice\n- [ ] Implement from scratch without references\n- [ ] Test with edge cases\n- [ ] Compare output with established libraries\n- [ ] Optimize for production use\n\n### Completion Criteria\n- [ ] Code produces correct output\n- [ ] Can explain the implementation to others\n- [ ] Edge cases handled properly\n- [ ] Performance is acceptable"
+      }
+    ]
+  }
+]
